@@ -5,8 +5,246 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Titulo de primer nivel
+      h1 Vigilancia en salud pública
       
+    .row 
+      .col-lg-7
+        p(data-aos="fade-down").mb-5 El dengue es un evento de interés en salud pública de notificación obligatoria, que debe cumplirse según los lineamientos e instrumentos del sistema de vigilancia en salud pública nacional, teniendo en cuenta las definiciones de caso vigentes definidas en el protocolo de vigilancia nacional. 
+        p(data-aos="fade-left").mb-5 Por ello, es importante realizar capacitación al personal médico en la detección temprana de la enfermedad y en los sistemas de vigilancia que no son conocidos por gran parte de los equipos de salud en el país.
+        p(data-aos="fade-right").mb-5 En la notificación se debe tener presente, la recolección y análisis de los datos que orientarán las medidas de prevención y control de los casos de dengue y dengue grave a nivel nacional, departamental y municipal según se requiera:
+      .col-lg-5(data-aos="fade-up")
+        figure
+          img(src='@/assets/curso/temas/tema1/img1.svg').m-auto
+    
+    .tabla-b.color-acento-contenido.mb-5
+      .tabla-b__header
+        .row
+          .col-lg-4
+            h4.mb-0 Notificación
+          .col-lg-8
+            h4.mb-0 Responsabilidad
+      table
+        tr
+          th(style='width:30%') Notificación semanal
+          td Los casos de dengue se deben notificar semanalmente, de acuerdo con la estructura y contenido mínimo establecidos en el subsistema de vigilancia de los eventos de interés en salud pública. <br/><br/> La notificación de los casos de dengue grave y mortalidad por dengue se exige desde su clasificación como probable y en el nivel local es inmediata
+        tr
+          th(style='width:30%') Ajustes por periodos epidemiológicos
+          td Los ajustes a la información de casos probables de dengue y clasificación final de los casos se deben realizar a más tardar en el período epidemiológico inmediatamente posterior a la notificación del caso de conformidad con los mecanismos definidos por el sistema.
+
+    #t_1_1.titulo-segundo.color-acento-contenido
+      h2 1.1 Epidemiológica
+      
+    p(data-aos="fade-down").mt-5 La vigilancia del dengue se basa en el conocimiento de la enfermedad, el análisis de las condiciones sanitarias y la respuesta social organizada de las poblaciones en riesgo.
+
+    .tarjeta.color-secundario.p-4.p-md-5
+      .row.justify-content-around.align-items-center
+        .col-8.col-sm-5.col-md-4.mb-4.mb-md-0
+          img(src="@/assets/curso/temas/tema1/img2.svg")
+
+        .col-md.col-lg-6
+          p(data-aos="fade-up") En Colombia el dengue representa un problema prioritario en salud pública debido a:
+
+          ul.lista-ul--color.ps-3
+            li
+              i.lista-ul__vineta.txt--green
+              | Intensa transmisión viral con tendencia creciente.
+            li
+              i.lista-ul__vineta.txt--green
+              | Ciclos epidémicos cada vez más cortos.
+            li
+              i.lista-ul__vineta.txt--green
+              | Aumento en la frecuencia de brotes de dengue hemorrágico. 
+            li
+              i.lista-ul__vineta.txt--green
+              | Circulación simultánea de los cuatro serotipos.
+            li
+              i.lista-ul__vineta.txt--green
+              | Infestación por <i>Aedes aegypti</i> de más del 90% del territorio nacional situado por debajo de los 2.200 m.s.n.m.
+            li
+              i.lista-ul__vineta.txt--green
+              | Urbanización incontrolada y el aumento de la población con viviendas inadecuadas.
+
+    p(data-aos="fade-up").mt-5 La dinámica de transmisión del virus dengue, depende de interacciones entre el ambiente, el agente, la población huésped y el vector, que coexisten en un hábitat específico. La magnitud e intensidad de la interacción de estos factores define la transmisión del dengue en una localidad, distrito, región o país. Estos componentes pueden agruparse en macrofactores y microfactores determinantes de la transmisión:
+
+    .row.justify-content-center
+      .col-sm-6.col-lg-5.mb-4.mb-lg-0
+        .tarjeta--boton.color-secundario.p-4
+          .crd.crd--avatarHorizontal.crd--first.py-4
+            .row.align-items-center
+              .col-auto
+                figure
+                  img(src="@/assets/curso/temas/tema1/img3.svg", alt="alt")
+              .col
+                h5 Macrofactores
+                p Factores ambientales y sociales.
+          
+      .col-sm-6.col-lg-5.mb-4.mb-lg-0
+        .tarjeta--boton.color-secundario.p-4
+          .crd.crd--avatarHorizontal.crd--first.py-4
+            .row.align-items-center
+              .col-auto
+                figure
+                  img(src="@/assets/curso/temas/tema1/img4.svg", alt="alt")
+              .col
+                h5 Microfactores
+                p Factores de riesgo propios del huésped, el agente causal y el vector.
+
+    #t_1_2.titulo-segundo.color-acento-contenido.mt-5
+      h2 1.2 Virológica
+
+    p(data-aos="fade-up").mt-5 La vigilancia sobre el dengue debe incluir la confirmación de los casos por laboratorio, ya que clínicamente el dengue puede parecerse a muchas enfermedades; además, está el riesgo de severidad de la enfermedad en los individuos y el riesgo de epidemias que dependen en gran parte del serotipo del virus circulante.
+
+    p(data-aos="fade-left").mt-3 En la vigilancia activa, el laboratorio cumple un rol importante para la confirmación serológica, virológica y entomológica, que podrán realizarse según el escenario correspondiente.
+
+    p(data-aos="fade-down").mt-3 En situación de brote, con casos probables de dengue, se deberá confirmar por lo menos el 10%. Intentar la confirmación serológica o virológica en todos los casos probables de dengue significa un gasto de recursos innecesario. ¿Sabes qué significan estos dos tipos de vigilancia? Veamos al respecto:
+
+    .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+
+      .tarjeta--container.row.mb-5
+        .col-md.tarjeta.color-primario.p-5
+          .row.justify-content-center.mb-4
+            .col-6
+              figure
+                img(src='@/assets/curso/temas/tema1/img5.svg', alt='Texto que describa la imagen')
+      
+          h2.text-center Vigilancia serológica
+          p Consiste en la detección de anticuerpos de IgM específicos del dengue en el suero del paciente, del 93 al 98 % detestables a partir del sexto al décimo día. Se puede emplear para la vigilancia clínica y para calcular los índices de transmisión de la enfermedad a través de las encuestas serológicas basadas en la población realizadas poco después de que la transmisión epidémica comienza a ceder.
+        .col-md.tarjeta.color-secundario.p-5
+          .row.justify-content-center.mb-4
+            .col-6
+              figure
+                img(src='@/assets/curso/temas/tema1/img6.svg', alt='Texto que describa la imagen')
+            
+          h2.text-center Vigilancia virológica
+          p Complementa la vigilancia serológica y es fundamental para desarrollar un sistema de alerta inmediata y predictiva del dengue epidémico. El método de elección para el aislamiento de rutina del virus es su inoculación a la línea de células de mosquito c6/36, que son detectados en los primeros cinco días de la enfermedad.
+      .row.justify-content-center
+        .col-10
+          p(data-aos="fade-down").mt-3 En situación de brote, con casos probables de dengue, se deberá confirmar por lo menos el 10 %. Intentar la confirmación serológica o virológica en todos los casos probables de dengue significa un gasto de recursos innecesario. ¿Sabes qué significan estos dos tipos de vigilancia? Veamos al respecto:
+      
+    #t_1_3.titulo-segundo.color-acento-contenido.mt-5
+      h2 1.3 Entomológica
+    
+    p(data-aos="fade-up").mt-3 La vigilancia entomológica es un proceso descentralizado, permanente organizado, programado y orientado al registro sistemático de información, para su análisis constante que permita predecir, prevenir y/o controlar el <i>Aedes aegypti</i> con la finalidad de hacer oportunas y efectivas las acciones de control.
+
+    .tarjeta.color-acento-contenido.p-4.p-md-5.mb-5
+      .row.justify-content-around.align-items-center
+        .col-8.col-sm-5.col-md-4.mb-4.mb-md-0
+          img(src="@/assets/curso/temas/tema1/img7.svg")
+
+        .col-md.col-lg-6
+          h2 Objetivo General:
+          p(data-aos="fade-up") Conocer el comportamiento, la distribución, abundancia y dispersión del vector, sus costumbres y su relación con el ambiente que permita proporcionar información de calidad adecuada y oportuna sobre el <i>Aedes aegypti</i>.
+
+          h2 Objetivos Específicos: 
+
+          ul.lista-ul--color.ps-3
+            li
+              i.lista-ul__vineta.txt--green
+              | Identificar factores y variables bióticos y abióticos bajo los cuales se desarrolla el vector y la ocurrencia de las enfermedades en humanos.
+            li
+              i.lista-ul__vineta.txt--green
+              | Generar y sistematizar información para establecer las medidas de prevención y control oportunas según los índices entomológicos encontrados mediante la vigilancia del vector.
+            li
+              i.lista-ul__vineta.txt--green
+              | Detectar y notificar la introducción del <i>A.albopictus</i>.
+            li
+              i.lista-ul__vineta.txt--green
+              | Evaluar y monitorear los niveles de susceptibilidad y resistencia de los vectores tanto adultos como estadios inmaduros a los insecticidas usados y nuevos utilizados en Salud Pública, a través del tiempo. 
+            li
+              i.lista-ul__vineta.txt--green
+              | Lograr la participación comunitaria en las actividades de vigilancia.
+
+    h2 Ámbito
+    p(data-aos="fade-up") La vigilancia entomológica tendrá como área de influencia todo el territorio nacional, según escenarios epidemiológicos.
+    p(data-aos="fade-up") El Sistema de Vigilancia Entomológica se sustenta en el fortalecimiento institucional, la coordinación intra y extrasectorial y la participación comunitaria, a través de la implementación de las estrategias relacionadas a continuación: 
+
+    .row
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+        .tarjeta--boton.color-secundario.p-4
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/temas/tema1/img8.svg', alt='Texto que describa la imagen')
+
+          p.text-small Sensibilizar a la población y las autoridades de diferentes sectores sobre la importancia de la presencia del Aedes aegypti.
+
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+        .tarjeta--boton.color-primario.text-white--hover.p-4
+          .row.justify-content-center.mb-3
+          
+          p.text-small Incorporar la participación de los gobiernos regionales (CTAR), gobiernos locales (municipalidad), sector educación, empresas prestadoras de agua y saneamiento y principalmente, las organizaciones comunales, que garanticen el sostenimiento y continuidad de las actividades de vigilancia entomológica, a nivel nacional.
+
+      .col-sm-6.col-lg-3.mb-4.mb-sm-0
+        .tarjeta--boton.color-secundario.text-white--hover.p-4
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/temas/tema1/img9.svg', alt='Texto que describa la imagen')
+          
+          p.text-small Fortalecer la capacidad técnica de los laboratorios de Salud Pública y las densas para la vigilancia entomológica.
+
+      .col-sm-6.col-lg-3
+        .tarjeta--boton.color-primario.text-white--hover.p-4
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/temas/tema1/img10.svg', alt='Texto que describa la imagen')
+         
+          p.text-small  Promover desde el nivel local la investigación operativa.
+    
+    .row.mt-5  
+      .col-12
+        LineaTiempoE.color-primario.mb-5
+          .row
+            .col-lg-2.mb-3.mb-lg-0
+              figure
+                img.img200(src='@/assets/curso/temas/tema1/img11.svg', alt='Texto que describa la imagen')
+            .col-lg-10.mb-4.mb-lg-0
+              p Designar un responsable que organice la vigilancia, haga las coordinaciones necesarias y remita información mensual al nivel regional y central para mantener el flujo de información sobre la situación de todas las localidades vigiladas.
+          .row
+            .col-lg-2.mb-3.mb-lg-0
+              figure
+                img.img200(src='@/assets/curso/temas/tema1/img12.svg', alt='Texto que describa la imagen')
+            .col-lg-10.mb-4.mb-lg-0
+              p Coordinar todas las acciones con la Cabeza de Red de la jurisdicción, con la Dirección Regional de Salud y con las autoridades locales y comunitarias.
+          .row
+            .col-lg-2.mb-3.mb-lg-0
+              figure
+                img.img200(src='@/assets/curso/temas/tema1/img13.svg', alt='Texto que describa la imagen')
+            .col-lg-10.mb-4.mb-lg-0
+              p Coordinar y/o capacitar al personal que va a realizar la inspección domiciliaria (reconocimiento de larvas, toma de muestras, uso de fichas, identificación taxonómica, forma de hacer la inspección, uso de los vistos domiciliares si fuera necesario y forma de marcar las casas inspeccionadas, renuentes y cerradas si se están haciendo censos).
+          .row
+            .col-lg-2.mb-3.mb-lg-0
+              figure
+                img.img200(src='@/assets/curso/temas/tema1/img14.svg', alt='Texto que describa la imagen')
+            .col-lg-10.mb-4.mb-lg-0
+              p Contar con un plano completo de la localidad de trabajo y distribuir copias con las manzanas que se vayan a trabajar por día y por equipo de inspección.
+          .row
+            .col-lg-2.mb-3.mb-lg-0
+              figure
+                img.img200(src='@/assets/curso/temas/tema1/img15.svg', alt='Texto que describa la imagen')
+            .col-lg-10.mb-4.mb-lg-0
+              p Hacer difusión de la campaña de inspección de viviendas, con información amplia de la necesidad de realizar esta actividad, a través de medios de comunicación masiva, mediante distribución de material impreso o perifoneo.
+          .row
+            .col-lg-2.mb-3.mb-lg-0
+              figure
+                img.img200(src='@/assets/curso/temas/tema1/img16.svg', alt='Texto que describa la imagen')
+            .col-lg-10.mb-4.mb-lg-0
+              p En localidades donde se vaya a emplear larvitrampas: 
+              ul.lista-ul--color.ps-3
+                li
+                  i.lista-ul__vineta.txt--green
+                  | Seleccionar las viviendas para colocar las trampas. 
+                li
+                  i.lista-ul__vineta.txt--green
+                  | Coordinar que extraños no manipulen las trampas.
+                li
+                  i.lista-ul__vineta.txt--green
+                  | Designar personal para inspección de las trampas. 
+                li
+                  i.lista-ul__vineta.txt--green
+                  | Si hay muestras, hacer identificación taxonómica y enviar el 10% de la muestra al laboratorio regional para su confirmación previo a la notificación
+    
 </template>
 
 <script>

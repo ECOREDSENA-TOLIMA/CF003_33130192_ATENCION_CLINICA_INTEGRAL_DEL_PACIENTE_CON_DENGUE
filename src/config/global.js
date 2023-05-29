@@ -1,7 +1,8 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
+    componenteFormativo: 'Vigilancia, prevención y control',
+    descripcionCurso:
+      'El componente formativo aborda aspectos relacionados con los procesos establecidos para la notificación, recolección y análisis de datos con miras a la generación de información oportuna, válida y confiable para orientar medidas de prevención y control del dengue. ',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -31,28 +32,48 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Vigilancia en salud pública',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Epidemiológica',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Virológica',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Entomológica',
+            hash: 't_1_3',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Estrategias',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Orientación y evaluación de las medidas de control',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Análisis de datos: indicadores e interpretación',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Acciones: individuales y colectivas',
+            hash: 't_2_3',
+          },
+        ],
       },
     ],
     subMenu: [

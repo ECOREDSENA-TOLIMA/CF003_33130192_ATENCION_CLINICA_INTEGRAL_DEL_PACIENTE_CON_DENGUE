@@ -1,14 +1,14 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: zoom-in-zoom-out 3s ease infinite
     position: absolute
-    top: 40%
-    right: 50%
+    top: 36.5%
+    right: 68%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 19%
+    right: 28%
 
 
 @keyframes float1
@@ -17,3 +17,11 @@
 
   100%
     transform: translateY(0px)
+
+@keyframes zoom-in-zoom-out 
+  0% 
+    transform: scale(1, 1)
+  50% 
+    transform: scale(1.5, 1.5)
+  100% 
+    transform: scale(1, 1)
