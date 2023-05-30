@@ -161,7 +161,7 @@
               figure
                 img(src='@/assets/curso/temas/tema2/img19.svg')
 
-      AcordionA.mt-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+      AcordionA.mt-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="flip-up")
         .row(titulo="De acuerdo al momento de su aplicación")
           .col-md-6
               figure
@@ -179,12 +179,12 @@
               figure
                 img(src='@/assets/curso/temas/tema2/img21.svg', alt='Texto que describa la imagen')
           .col-md-6.mb-4.mb-md-0
-            h3(data-aos="fade-up") Indicadores de proceso:
-            p(data-aos="fade-up") permiten evaluar la gestión realizada por la entidad territorial en torno a la vigilancia en salud pública. Se refieren a las actividades realizadas para alcanzar determinado resultado.
-            h3(data-aos="fade-up") Indicadores de resultado:
-            p(data-aos="fade-up") permiten medir los efectos inmediatos o a corto plazo generados por los productos de una política, programa o proyecto, sobre la población directamente afectada.
-            h3(data-aos="fade-up") Indicadores de impacto:
-            p(data-aos="fade-up") se refieren al resultado final, producto de las acciones realizadas. Permiten medir los efectos a mediano y largo plazo, generados por una política, programa o proyecto, sobre la población en general. Los efectos medidos son aquellos directamente atribuibles a dicha política, programa o proyecto específico. Incluyen efectos positivos y negativos, producidos directa o indirectamente por una intervención.
+            h3 Indicadores de proceso:
+            p Permiten evaluar la gestión realizada por la entidad territorial en torno a la vigilancia en salud pública. Se refieren a las actividades realizadas para alcanzar determinado resultado.
+            h3 Indicadores de resultado:
+            p Permiten medir los efectos inmediatos o a corto plazo generados por los productos de una política, programa o proyecto, sobre la población directamente afectada.
+            h3 Indicadores de impacto:
+            p Se refieren al resultado final, producto de las acciones realizadas. Permiten medir los efectos a mediano y largo plazo, generados por una política, programa o proyecto, sobre la población en general. Los efectos medidos son aquellos directamente atribuibles a dicha política, programa o proyecto específico. Incluyen efectos positivos y negativos, producidos directa o indirectamente por una intervención.
 
       .mb-4.mt-5
         .d-flex.flex-wrap.align-items-center(data-aos="fade-right")
@@ -452,10 +452,10 @@
           td <b>Coeficiente de multiplicación</b>
           td <b>Parámetro</b>
         tr
-          td Pacientes hospitalizados que evolucionan a formas graves del dengue
-          td Número de pacientes hospitalizados que evolucionan por dengue
-          td Total de pacientes hospitalizados
-          td por cien (x 100)
+          td Pacientes hospitalizados que evolucionan a formas graves del dengue.
+          td Número de pacientes hospitalizados que evolucionan por dengue.
+          td Total de pacientes hospitalizados.
+          td por cien (x 100).
           td <2 % de pacientes hospitalizados que evolucionan a shock por dengue.
         tr
           td Pacientes con formas graves de dengue hospitalizados en tercer nivel.
@@ -466,20 +466,20 @@
         tr
           td Pacientes con dengue con signos de alarma que evolucionan a dengue grave.
           td Número de pacientes con diagnóstico de dengue con signos de alarma que evolucionan a dengue grave.
-          td Total de pacientes hospitalizados con diagnóstico de dengue sin signos de alarma
-          td por cien (x 100)
+          td Total de pacientes hospitalizados con diagnóstico de dengue sin signos de alarma.
+          td por cien (x 100).
           td <5 % de casos con signos de alarma que evolucionan a formas graves de la enfermedad.
         tr
           td Pacientes que fallecen en primer o segundo nivel de atención por dengue.
           td Número de muertes por dengue que ocurren en primer y segundo nivel de atención.
           td Total de muertes por dengue.
-          td por cien (x 100)
+          td por cien (x 100).
           td 0 % de pacientes que fallecen en primer y segundo nivel de atención.
         tr
-          td Letalidad por dengue
+          td Letalidad por dengue.
           td Número de muertes por dengue en un período específico.
           td Total de casos graves de dengue en un período específico.
-          td por cien (x 100)
+          td por cien (x 100).
           td <2 % de pacientes con formas graves de la enfermedad fallecen. 
 
     p(data-aos="fade-up").mt-5 Las dosis diagnósticas de insecticidas con determinados tiempos en los cuales se exponen las especies vectores son empleados para detectar o monitorear la resistencia en una población de insectos y determinada por la exposición del mosquito al insecticida depositado, en el caso de la metodología CDC, en las paredes internas de las botellas de vidrio empleadas en la prueba, y se calcula por los porcentajes de mortalidad de la especie vectora expuesta con la dosis y el tiempo diagnóstico establecido.
@@ -518,8 +518,11 @@
           img(src='@/assets/curso/temas/tema2/img45.svg')(style='margin-right: 50px')
       
       .col-7.p-4
-        p(data-aos="fade-down") Tomando como base el Decreto 3518 de 2006 se define la notificación obligatoria como “la notificación de aquellos eventos de reporte obligatorio definidos en los modelos y protocolos de vigilancia, dentro de los términos de estructura de datos, responsabilidad, clasificación, periodicidad (semanal o inmediata) y destinos señalados en los mismos y observando los estándares de calidad, y veracidad de la información notificada”.
-        p(data-aos="fade-up") Para efectos de evaluación del sistema se tendrá en cuenta la notificación ya sea positiva o negativa de la ocurrencia de eventos objeto de vigilancia en salud pública para todas las semanas epidemiológicas. Se considera incumplimiento la ausencia de cualquier tipo de reporte (silencio epidemiológico) 
+        p(data-aos="fade-down") En cuanto a las medidas relacionadas con los servicios de salud ante una situación epidémica se considera necesario:
+        p(data-aos="fade-up") ● Implementar un mecanismo que garantice el mejoramiento de la calidad del recurso humano para detectar y tratar los casos de dengue. 
+        p(data-aos="fade-down") ● Reforzar o actualizar al personal en las definiciones de caso y los mecanismos para el diagnóstico definitivo. 
+        p(data-aos="fade-up") ● Garantizar la adecuada atención de los casos en términos de calidad y oportunidad.
+        p(data-aos="fade-down") ● Orientar a las personas para que asistan oportunamente a los servicios de salud en los casos en que se realiza búsqueda activa de casos. 
 
     .row.mt-5.text-white.justify-content-center
       .col-10.tarjeta.color-primario
@@ -546,7 +549,7 @@
                 img(src='@/assets/curso/temas/icono.svg' style="max-width: 50px;")
                 .h3.col-auto.pb-2.mb-0.ms-2(style=" border-bottom: 2px solid #8628A5;") Medidas de vigilancia por laboratorio
             p(data-aos="fade-down") Las medidas de vigilancia por laboratorio proveen información sobre los serotipos de los virus circulantes detectando oportunamente la introducción de nuevos serotipos en un área. La vigilancia virológica se debe realizar de forma rutinaria a pacientes con menos de cinco días de evolución. Se obtendrán cinco muestras de suero semanales para ser remitidas al INS según las indicaciones de transporte de muestras para aislamiento viral. 
-            p(data-aos="fade-up") Se podrán realizar estudios de prevalencia en áreas que requieran documentar la situación serológica de la población para detectar oportunamente la introducción de serotipos. En caso de brotes, se deben tomar muestras de 5 % de los casos de dengue clásico (una por cada 20 pacientes) y a todos los casos de dengue grave
+            p(data-aos="fade-up") Se podrán realizar estudios de prevalencia en áreas que requieran documentar la situación serológica de la población para detectar oportunamente la introducción de serotipos. En caso de brotes, se deben tomar muestras de 5 % de los casos de dengue clásico (una por cada 20 pacientes) y a todos los casos de dengue grave.
 
           .col-4.mt-5
             figure
@@ -563,7 +566,7 @@
             .h3.col-auto.pb-2.mb-0.ms-2(style=" border-bottom: 2px solid #8628A5;") Acciones de laboratorio
         
         p Las muestras para realizar pruebas de laboratorio son de dos clases:
-        p 1) Identificación de anticuerpos y
+        p 1) Identificación de anticuerpos.
         p 2) Para aislamiento viral.
 
         .mb-4.mt-3

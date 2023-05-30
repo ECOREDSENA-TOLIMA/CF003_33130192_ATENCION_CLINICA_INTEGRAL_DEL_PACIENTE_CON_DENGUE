@@ -119,7 +119,7 @@
       
       .row.justify-content-center
         .col-10
-          p(data-aos="fade-down").mt-3 En situación de brote, con casos probables de dengue, se deberá confirmar por lo menos el 10 %. Intentar la confirmación serológica o virológica en todos los casos probables de dengue significa un gasto de recursos innecesario. ¿Sabes qué significan estos dos tipos de vigilancia? Veamos al respecto:
+          p(data-aos="fade-down").mt-3 La vigilancia del dengue debe ser integral, permitiendo la evaluación de nuevas áreas de propagación del virus, detectando nuevos serotipos y genotipos en áreas infectadas y vigilando los casos graves y mortales atribuidos al dengue, la vigilancia del vector.
 
     separador 
     #t_1_3.titulo-segundo.color-acento-contenido
