@@ -9,31 +9,22 @@
     
     p(data-aos="fade-up").mb-5 La vigilancia en el control de los mosquitos es prácticamente inexistente en la mayoría de los países donde el dengue es endémico.
     
-    .tarjeta.color-secundario.p-4.p-md-5.mb-5
+    .cajon-temas.color-secundario.p-4.p-md-5.mb-5
       .row.justify-content-around.align-items-center
         .col-8.col-sm-5.col-md-4.mb-4.mb-md-0
           img(src="@/assets/curso/temas/tema2/img1.svg")
 
         .col-md.col-lg-6
           p(data-aos="fade-up") La vigilancia debe ser regular a través de:
-          ul.lista-ul--color.ps-3
-            li
-              i.lista-ul__vineta.txt--green
-              | Notificación semanal de casos probables.
-            li
-              i.lista-ul__vineta.txt--green
-              | Búsqueda activa institucional trimestral de casos.
-            li
-              i.lista-ul__vineta.txt--green
-              | Toma de muestras de suero o tejidos para la confirmación diagnóstica en casos fatales.
-            li
-              i.lista-ul__vineta.txt--green
-              | Vigilancia viral, orientación y evaluación de las medidas de control.
+          p(data-aos="fade-down") ● Notificación semanal de casos probables.
+          p(data-aos="fade-up") ● Búsqueda activa institucional trimestral de casos.
+          p(data-aos="fade-down") ● Toma de muestras de suero o tejidos para la confirmación diagnóstica en casos fatales.
+          p(data-aos="fade-up") ● Vigilancia viral, orientación y evaluación de las medidas de control.
     
     p(data-aos="fade-up").mb-5 En los departamentos y ciudades, donde haya vectores presentes sin virus circulante, los planes de preparación y respuesta se deben centrar en estrategias para disminuir los riesgos de transmisión de acuerdo a lineamientos establecidos, que se destacan a continuación: 
 
     .row.justify-content-center.mb-5
-      .col-10.tarjeta.color-primario
+      .col-10.cajon-temas.color-primario
           SlyderB.mb-5(:datos="datosSlyder").mt-4
     separador
     #t_2_1.titulo-segundo.color-acento-contenido
@@ -76,7 +67,7 @@
           p(data-aos="fade-up") Además de caracterizar el caso, es preciso configurar el escenario epidemiológico de la región para orientar las acciones de control, así como las de vigilancia virológica y entomológica que sean necesarias. 
           p(data-aos="fade-down") En todos los casos de dengue grave y de mortalidad por dengue es necesario investigar los antecedentes personales en los cuales se establezca la demanda de atención médica previa, el tipo de medicación y recomendaciones dadas al paciente sobre la identificación de signos de alarma y en qué momento buscar nuevamente atención médica, el tiempo transcurrido entre el inicio de la sintomatología y la consulta médica y en general la aplicación de los criterios recomendados para el manejo en la guía de práctica clínica del dengue (de acuerdo con la normatividad vigente). Además, se debe realizar unidad de análisis en cada uno de los casos de mortalidad por dengue.
 
-      .tarjeta.color-primario.p-4.p-md-5.mb-5.mt-5
+      .tarjeta.p-4.p-md-5.mb-5.mt-5.BGIMG02
         .row.justify-content-around.align-items-center
           .col-8.col-sm-5.col-md-4.mb-4.mb-md-0
             img(src="@/assets/curso/temas/tema2/img12.svg")
@@ -94,7 +85,7 @@
       p(data-aos="fade-up") En zonas endémicas, la vigilancia del dengue debe ser un insumo permanente para realizar las acciones de control vectorial que se llevan a cabo regularmente y permiten su focalización. El aumento del número de casos deberá conducir a la evaluación de las medidas de control implementadas y a la definición de nuevas estrategias que permitan el control del vector y, en consecuencia, de la enfermedad.
       p(data-aos="fade-down") En la implementación de medidas de control vectorial, se recomienda tener en cuenta los siguientes aspectos:
 
-      .row.justify-content-center.tarjeta.color-secundario.mt-5
+      .row.justify-content-center.tarjeta-temas.color-secundario.mt-5
         .col-lg-10
 
           SlyderF.custom.mb-5(columnas="col-lg-6 col-xl-4")
@@ -161,7 +152,7 @@
               figure
                 img(src='@/assets/curso/temas/tema2/img19.svg')
 
-      AcordionA.mt-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="flip-up")
+      AcordionA.mt-5(tipo="a" clase-tarjeta="tarjeta BGIMG01")(data-aos="flip-up")
         .row(titulo="De acuerdo al momento de su aplicación")
           .col-md-6
               figure
@@ -302,7 +293,7 @@
       .col-7
         p A continuación, se señalan los gráficos recomendados de acuerdo al tipo de variables analizadas:
     
-      AcordionA.mt-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+      AcordionA.mt-5(tipo="a" clase-tarjeta="tarjeta BGIMG01")
         .row(titulo="Una sola variable cualitativa con nivel de medición nominal")
           p Para representación de una sola variable cualitativa con nivel de medición nominal u ordinal se sugiere trabajar con los gráficos relacionados a continuación:
           .col-md-6
@@ -409,7 +400,7 @@
       
       p(data-aos="fade-left") Con el fin de evaluar la gestión realizada por las entidades territoriales en el sistema de vigilancia en salud pública, se definen indicadores de cumplimiento y oportunidad.
 
-      .tarjeta.color-primario.row.justify-content-center
+      .cajon-temas.color-primario.row.justify-content-center
         .col
           .row 
             .col-8.p-4(style='margin-left: 50px')
@@ -487,13 +478,13 @@
     
     .row.justify-content-center.mt-5(data-aos="flip-up")
       .col-5
-        .tarjeta.color-primario.p-4(style='height: 100%')
+        .tarjeta-temas.color-primario.p-4(style='height: 100%')
           .row.justify-content-center
             .col-auto
               img(src='@/assets/curso/temas/tema2/img42.svg' alt='AvatarTop')
           p.text-center.mt-4.mb-5 Si el porcentaje de mortalidad de los mosquitos expuestos es del 98-100 %, indica que la especie es susceptible al insecticida evaluado.
       .col-5
-        .tarjeta.color-primario.p-4
+        .tarjeta-temas.color-primario.p-4
           .row.justify-content-center
             .col-auto
               img(src='@/assets/curso/temas/tema2/img43.svg' alt='AvatarTop')
@@ -511,32 +502,32 @@
     .row
       figure
         img(src='@/assets/curso/temas/tema2/img44.png' alt='AvatarTop')
+    .row.BGIMG01.mt-5
+      .row.justify-content-center.mt-5
+        .col-3.mt-4.mb-4
+          figure
+            img(src='@/assets/curso/temas/tema2/img45.svg')(style='margin-right: 50px')
+        
+        .col-7.p-4
+          p(data-aos="fade-down") En cuanto a las medidas relacionadas con los servicios de salud ante una situación epidémica se considera necesario:
+          p(data-aos="fade-up") ● Implementar un mecanismo que garantice el mejoramiento de la calidad del recurso humano para detectar y tratar los casos de dengue. 
+          p(data-aos="fade-down") ● Reforzar o actualizar al personal en las definiciones de caso y los mecanismos para el diagnóstico definitivo. 
+          p(data-aos="fade-up") ● Garantizar la adecuada atención de los casos en términos de calidad y oportunidad.
+          p(data-aos="fade-down") ● Orientar a las personas para que asistan oportunamente a los servicios de salud en los casos en que se realiza búsqueda activa de casos. 
 
-    .row.justify-content-center.mt-5
-      .col-3.mt-4.mb-4
-        figure
-          img(src='@/assets/curso/temas/tema2/img45.svg')(style='margin-right: 50px')
-      
-      .col-7.p-4
-        p(data-aos="fade-down") En cuanto a las medidas relacionadas con los servicios de salud ante una situación epidémica se considera necesario:
-        p(data-aos="fade-up") ● Implementar un mecanismo que garantice el mejoramiento de la calidad del recurso humano para detectar y tratar los casos de dengue. 
-        p(data-aos="fade-down") ● Reforzar o actualizar al personal en las definiciones de caso y los mecanismos para el diagnóstico definitivo. 
-        p(data-aos="fade-up") ● Garantizar la adecuada atención de los casos en términos de calidad y oportunidad.
-        p(data-aos="fade-down") ● Orientar a las personas para que asistan oportunamente a los servicios de salud en los casos en que se realiza búsqueda activa de casos. 
-
-    .row.mt-5.text-white.justify-content-center
-      .col-10.tarjeta.color-primario
-        .row 
-          .col-8.mt-5
-            p(style='margin-left: 40px;').mt-4 Se debe evaluar la calidad del proceso de atención y llevar a cabo un plan de mejoramiento ante el incremento de letalidad, hospitalización y complicación de casos que evolucionan a choque.
-          .col-3.mt-4
-            figure
-              img(src='@/assets/curso/temas/tema2/img11.svg')(style='margin-left: 100px;')
-    .row.justify-content-center.mt-5
-      .col-10
-        p En acciones individuales se relacionan medidas de control sobre casos y contactos, dentro de las que se destacan: 
-        p ● Ofrecer información sobre los principales signos y síntomas de alarma. La consulta oportuna en caso de que se presente una complicación u otro enfermo entre la familia o los vecinos. 
-        p ● Uso de toldillo.
+      .row.mt-5.text-white.justify-content-center
+        .col-10.tarjeta.color-primario
+          .row 
+            .col-8.mt-5
+              p(style='margin-left: 40px;').mt-4 Se debe evaluar la calidad del proceso de atención y llevar a cabo un plan de mejoramiento ante el incremento de letalidad, hospitalización y complicación de casos que evolucionan a choque.
+            .col-3.mt-4
+              figure
+                img(src='@/assets/curso/temas/tema2/img11.svg')(style='margin-left: 100px;')
+      .row.justify-content-center.mt-5
+        .col-10
+          p En acciones individuales se relacionan medidas de control sobre casos y contactos, dentro de las que se destacan: 
+          p ● Ofrecer información sobre los principales signos y síntomas de alarma. La consulta oportuna en caso de que se presente una complicación u otro enfermo entre la familia o los vecinos. 
+          p.mb-5 ● Uso de toldillo.
 
     p(data-aos="fade-up").mt-5 En cuanto a acciones colectivas, es preciso considerar la vigilancia permanente del dengue en zonas endémicas a través de la implementación de medidas de control vectorial y vigilancia entomológica para conocer la dinámica de los vectores en el área. Cada departamento debe contar con un grupo básico para desarrollar acciones de vigilancia entomológica con el fin de ofrecer información analizada permanentemente sobre la situación vectorial y establecer la estrategia más adecuada para el control selectivo de vectores en la zona.
 
@@ -555,7 +546,7 @@
             figure
               img(src='@/assets/curso/temas/tema2/img46.svg')
 
-    .row.justify-content-center
+    .row.justify-content-center.BGIMG03
       .col-lg-4
         figure(data-aos="zoom-in")
           img(src="@/assets/curso/temas/tema2/img47.svg", alt="alt").img400.m-auto

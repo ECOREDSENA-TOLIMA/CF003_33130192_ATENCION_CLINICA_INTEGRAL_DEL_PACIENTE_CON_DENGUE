@@ -25,3 +25,61 @@
     transform: scale(1.5, 1.5)
   100% 
     transform: scale(1, 1)
+
+.cajon-temas
+  position: relative
+  &:before
+    content: ''
+    display: block
+    width: 25px
+    height: 10px
+    position: absolute
+    top: 0
+    left: 0
+
+  &.color-primario
+    background-color: lighten($color-primario, 25%)
+  &.color-secundario
+    background-color: lighten($color-secundario, 40%)
+  &.color-acento-contenido
+    background-color: lighten($color-acento-contenido, 30%)
+  &.color-acento-botones
+    background-color: lighten($color-acento-botones, 35%)
+
+.tarjeta-temas
+  border-radius: 20px
+
+  &.color-primario
+    background-color: lighten($color-primario, 25%)
+  &.color-secundario
+    background-color: lighten($color-secundario, 40%)
+  &.color-acento-contenido
+    background-color: lighten($color-acento-contenido, 30%)
+  &.color-acento-botones
+    background-color: lighten($color-acento-botones, 35%)
+  &--boton
+    border-radius: 20px
+    background-color: $color-sistema-i
+    cursor: pointer
+    transition: background-color 0.3s ease-in-out
+
+.BGIMG01
+  border-radius: 15px
+  background-image: url("../assets/curso/fondos/img1.png")
+  background-size: cover 
+  background-repeat: no-repeat
+  background-position: center
+
+.BGIMG02
+  border-radius: 15px
+  background-image: url("../assets/curso/fondos/img2.png")
+  background-size: cover 
+  background-repeat: no-repeat
+  background-position: center
+
+.BGIMG03
+  border-radius: 15px
+  background-image: url("../assets/curso/fondos/img3.png")
+  background-size: cover 
+  background-repeat: no-repeat
+  background-position: center
