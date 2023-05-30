@@ -154,13 +154,13 @@
           p.text-small Sensibilizar a la población y las autoridades de diferentes sectores sobre la importancia de la presencia del <i>Aedes aegypti</i>.
 
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta--boton.color-primario.text-white--hover.p-4
+        .tarjeta-temas--botonb.color-primario.p-4
           .row.justify-content-center.mb-3
           
           p.text-small Incorporar la participación de los gobiernos regionales (CTAR), gobiernos locales (municipalidad), sector educación, empresas prestadoras de agua y saneamiento y principalmente, las organizaciones comunales, que garanticen el sostenimiento y continuidad de las actividades de vigilancia entomológica, a nivel nacional.
 
       .col-sm-6.col-lg-3.mb-4.mb-sm-0
-        .tarjeta-temas--boton.color-secundario.text-white--hover.p-4
+        .tarjeta-temas--boton.color-secundario.p-4
           .row.justify-content-center.mb-3
             .col-7
               figure
@@ -169,7 +169,7 @@
           p.text-small Fortalecer la capacidad técnica de los laboratorios de Salud Pública y las densas para la vigilancia entomológica.
 
       .col-sm-6.col-lg-3
-        .tarjeta--boton.color-primario.text-white--hover.p-4
+        .tarjeta-temas--botonb.color-primario.p-4
           .row.justify-content-center.mb-3
             .col-7
               figure
