@@ -131,60 +131,104 @@
           .h3.col-auto.pb-2.mb-0.ms-2(style=" border-bottom: 2px solid #8628A5;") Medidas de vigilancia entomológica
 
       p(data-aos="fade-up") En regiones con riesgo de introducción del vector del dengue, se debe planificar y desarrollar actividades de vigilancia entomológica en los puntos de entrada (puertos, aeropuertos, puestos fronterizos terrestres) y en las zonas urbanas con condiciones propicias para el vector, así como campañas educativas dirigidas a los trabajadores de la salud y a la comunidad sobre los riesgos del dengue y su participación en las acciones de prevención.
-      p(data-aos="fade-down") El siguiente video presenta algunas consideraciones relacionadas con la implementación de medidas de vigilancia entomológica para orientar acciones antivectoriales, específicamente en cuanto a la estrategia de aplicación de insecticidas: 
+      p(data-aos="fade-down") En esta parte se presentan algunas consideraciones relacionadas con la implementación de medidas de vigilancia entomológica para orientar acciones antivectoriales, específicamente en cuanto a la estrategia de aplicación de insecticidas.
 
-      figure
-        .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-            figcaption Video: Leyenda del video
+    .row.justify-content-center.tarjeta-temas.color-primario--borde
+      .col-10.mt-5
+        p El empleo de insecticidas está destinado a controlar una epidemia de dengue en curso con la destrucción rápida y masiva del Aedes aegypti Para implementar adecuadamente esta estrategia es importante considerar los siguientes aspectos:
+      .row.justify-content-center.mt-5 
+        .col-4
+          figure
+              img(src='@/assets/curso/temas/tema2/img55.svg')
+        .col-6
+          .tarjeta-temas.color-acento-contenido.p-4
+            PasosB.color-acento-contenido
+              .row(titulo="")
+                .col
+                  p Definir y caracterizar la zona que va a ser intervenida.
+
+              .row(titulo="")
+                .col
+                  p Determinar los métodos de tratamiento espacial y selección del equipo más adecuado.
+
+              .row(titulo="")
+                .col
+                  p Utilizar mapas o croquis para la planificación de los recorridos.
+              .row(titulo="")
+                .col
+                  p Calcular la zona total en hectáreas y establecer trayectorias, distancias y velocidades con el vehículo y a pie.
+
+              .row(titulo="")
+                .col
+                  p Aplicar la dosis correcta para el caudal de la máquina.
+
+              .row(titulo="")
+                .col
+                  p Al seleccionar un insecticida, tener en cuenta la susceptibilidad del vector al producto, su idoneidad para el equipo de aplicación,así como los costos finales de la aplicación por hectárea para la dosis recomendada.
+              .row(titulo="")
+                .col
+                  p Al seleccionar el equipo de aplicación y los insecticidas, garantizar el servicio post venta de fabricante, que incluye capacitación y eliminación de recipientes.
+
+              .row(titulo="")
+                .col
+                  p Definir el número de tratamientos y el intervalo entre ellos, de acuerdo al objetivo de la operación.
+
+              .row(titulo="")
+                .col
+                  p Determinar el número y tipo de máquinas (portátiles o montadas en vehículo), sus operadores y personal auxiliar necesario en función del tamaño y características de la zona que se va a intervenir, el tiempo necesario para completar cada ciclo y su frecuencia.
+      .col-10.mt-5
+        p.mb-5 Las condiciones climáticas y la actividad de vuelo del Aedes aegypti limitan la operación a dos o tres horas por la mañana. Por ejemplo, si una máquina puede cubrir 60 hectáreas por hora, en tres horas cubriría 180 hectáreas, lo cual requiere seis máquinas para completar esta tarea en una mañana, o, tres máquinas en dos mañanas. Usualmente, se necesitan dos personas para cada nebulizador montado en vehículo, uno para conducir y otro que se encarga del equipo
+            
+
     separador
     #t_2_2.titulo-segundo.color-acento-contenido
       h2 2.2 Análisis de datos: indicadores e interpretación
 
-      .row.justify-content-center
-        .col
-          .row 
-            .col-10.mt-5
-              p(data-aos="fade-down") Los indicadores son variables que intentan medir u objetivar en forma cuantitativa o cualitativa, sucesos colectivos (especialmente sucesos biodemográficos) para así, poder respaldar acciones políticas, evaluar logros y metas. La OMS (Organización Mundial de la Salud) los ha definido como variables que sirven para medir los cambios. Los indicadores en salud permiten establecer el impacto de las estrategias implementadas, la evolución de los eventos de vigilancia en el tiempo y la relación con sus determinantes.
-              p(data-aos="fade-down") Observe a continuación cómo se clasifican los indicadores de acuerdo al momento de su aplicación y el aspecto evaluado:
+    .row.justify-content-center
+      .col
+        .row 
+          .col-10.mt-5
+            p(data-aos="fade-down") Los indicadores son variables que intentan medir u objetivar en forma cuantitativa o cualitativa, sucesos colectivos (especialmente sucesos biodemográficos) para así, poder respaldar acciones políticas, evaluar logros y metas. La OMS (Organización Mundial de la Salud) los ha definido como variables que sirven para medir los cambios. Los indicadores en salud permiten establecer el impacto de las estrategias implementadas, la evolución de los eventos de vigilancia en el tiempo y la relación con sus determinantes.
+            p(data-aos="fade-down") Observe a continuación cómo se clasifican los indicadores de acuerdo al momento de su aplicación y el aspecto evaluado:
 
-            .col-2.mt-4
-              figure
-                img(src='@/assets/curso/temas/tema2/img19.svg')
+          .col-2.mt-4
+            figure
+              img(src='@/assets/curso/temas/tema2/img19.svg')
+    .row.justify-content-center 
+      .col-10
+        AcordionA.mt-5(tipo="a" clase-tarjeta="tarjeta BGIMG01")(data-aos="flip-up")
+          .row(titulo="De acuerdo al momento de su aplicación")
+            .col-md-6
+                figure
+                  img(src='@/assets/curso/temas/tema2/img20.svg', alt='Texto que describa la imagen')
+            .col-md-6.mb-4.mb-md-0
+              h3(data-aos="fade-down") Indicadores de estructura:
+              p(data-aos="fade-down") Son la base de la planeación. Se refiere a los indicadores ya estandarizados, de uso común, cuyos análisis involucran series de tiempo.
+              h3(data-aos="fade-down") Indicadores de coyuntura:
+              p(data-aos="fade-down") Hacen referencia a mediciones situacionales que por políticas, planes y metas sean propuestos por entidades gubernamentales, para diferentes fines. Por ejemplo, el seguimiento y evaluación a actividades específicas de un plan de desarrollo con el sello del programa y las políticas que proponga y realice el gobierno de turno.
+              h3(data-aos="fade-down") Indicadores de referencia: 
+              p(data-aos="fade-down") Se refieren al entorno demográfico y socioeconómico general (indicadores de población, macroeconómicos, sociales).
 
-      AcordionA.mt-5(tipo="a" clase-tarjeta="tarjeta BGIMG01")(data-aos="flip-up")
-        .row(titulo="De acuerdo al momento de su aplicación")
-          .col-md-6
-              figure
-                img(src='@/assets/curso/temas/tema2/img20.svg', alt='Texto que describa la imagen')
-          .col-md-6.mb-4.mb-md-0
-            h3(data-aos="fade-down") Indicadores de estructura:
-            p(data-aos="fade-down") Son la base de la planeación. Se refiere a los indicadores ya estandarizados, de uso común, cuyos análisis involucran series de tiempo.
-            h3(data-aos="fade-down") Indicadores de coyuntura:
-            p(data-aos="fade-down") Hacen referencia a mediciones situacionales que por políticas, planes y metas sean propuestos por entidades gubernamentales, para diferentes fines. Por ejemplo, el seguimiento y evaluación a actividades específicas de un plan de desarrollo con el sello del programa y las políticas que proponga y realice el gobierno de turno.
-            h3(data-aos="fade-down") Indicadores de referencia: 
-            p(data-aos="fade-down") Se refieren al entorno demográfico y socioeconómico general (indicadores de población, macroeconómicos, sociales).
+          .row(titulo="De acuerdo al aspecto evaluado")
+            .col-md-6
+                figure
+                  img(src='@/assets/curso/temas/tema2/img21.svg', alt='Texto que describa la imagen')
+            .col-md-6.mb-4.mb-md-0
+              h3 Indicadores de proceso:
+              p Permiten evaluar la gestión realizada por la entidad territorial en torno a la vigilancia en salud pública. Se refieren a las actividades realizadas para alcanzar determinado resultado.
+              h3 Indicadores de resultado:
+              p Permiten medir los efectos inmediatos o a corto plazo generados por los productos de una política, programa o proyecto, sobre la población directamente afectada.
+              h3 Indicadores de impacto:
+              p Se refieren al resultado final, producto de las acciones realizadas. Permiten medir los efectos a mediano y largo plazo, generados por una política, programa o proyecto, sobre la población en general. Los efectos medidos son aquellos directamente atribuibles a dicha política, programa o proyecto específico. Incluyen efectos positivos y negativos, producidos directa o indirectamente por una intervención.
 
-        .row(titulo="De acuerdo al aspecto evaluado")
-          .col-md-6
-              figure
-                img(src='@/assets/curso/temas/tema2/img21.svg', alt='Texto que describa la imagen')
-          .col-md-6.mb-4.mb-md-0
-            h3 Indicadores de proceso:
-            p Permiten evaluar la gestión realizada por la entidad territorial en torno a la vigilancia en salud pública. Se refieren a las actividades realizadas para alcanzar determinado resultado.
-            h3 Indicadores de resultado:
-            p Permiten medir los efectos inmediatos o a corto plazo generados por los productos de una política, programa o proyecto, sobre la población directamente afectada.
-            h3 Indicadores de impacto:
-            p Se refieren al resultado final, producto de las acciones realizadas. Permiten medir los efectos a mediano y largo plazo, generados por una política, programa o proyecto, sobre la población en general. Los efectos medidos son aquellos directamente atribuibles a dicha política, programa o proyecto específico. Incluyen efectos positivos y negativos, producidos directa o indirectamente por una intervención.
+    .mb-4.mt-5
+      .d-flex.flex-wrap.align-items-center(data-aos="fade-right")
+        img(src='@/assets/curso/temas/icono.svg' style="max-width: 50px;")
+        .h3.col-auto.pb-2.mb-0.ms-2(style=" border-bottom: 2px solid #8628A5;") Fichas técnicas
 
-      .mb-4.mt-5
-        .d-flex.flex-wrap.align-items-center(data-aos="fade-right")
-          img(src='@/assets/curso/temas/icono.svg' style="max-width: 50px;")
-          .h3.col-auto.pb-2.mb-0.ms-2(style=" border-bottom: 2px solid #8628A5;") Fichas técnicas
-
-      p(data-aos="fade-left") Las fichas técnicas o metadatos de los indicadores son instrumentos que permiten a los usuarios optimizar el uso y aprovechamiento de la información disponible. Presentan de manera estándar su definición, propósito, construcción, fuentes de información, metas y nivel de aplicación, estableciendo para todos los usuarios un lenguaje común para su procesamiento.
-      p(data-aos="fade-right") A la hora de realizar la construcción y establecer comparaciones entre entidades territoriales o por períodos, es importante tener claridad en su definición operacional, las fuentes a utilizar y la calidad y cobertura de los datos para cada uno de los escenarios en estudio. 
-      p(data-aos="fade-left") Basado en lo anterior, observe la siguiente descripción que presenta los aspectos utilizados en el formato de una ficha técnica y lo que representan estos: 
+    p(data-aos="fade-left") Las fichas técnicas o metadatos de los indicadores son instrumentos que permiten a los usuarios optimizar el uso y aprovechamiento de la información disponible. Presentan de manera estándar su definición, propósito, construcción, fuentes de información, metas y nivel de aplicación, estableciendo para todos los usuarios un lenguaje común para su procesamiento.
+    p(data-aos="fade-right") A la hora de realizar la construcción y establecer comparaciones entre entidades territoriales o por períodos, es importante tener claridad en su definición operacional, las fuentes a utilizar y la calidad y cobertura de los datos para cada uno de los escenarios en estudio. 
+    p(data-aos="fade-left") Basado en lo anterior, observe la siguiente descripción que presenta los aspectos utilizados en el formato de una ficha técnica y lo que representan estos: 
 
     .row
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
@@ -292,143 +336,144 @@
     .row.justify-content-center.mt-5(data-aos="fade-up")
       .col-7
         p A continuación, se señalan los gráficos recomendados de acuerdo al tipo de variables analizadas:
+    .row.justify-content-center
+      .col-10
+        AcordionA.mt-5(tipo="a" clase-tarjeta="tarjeta BGIMG01")
+          .row(titulo="Una sola variable cualitativa con nivel de medición nominal")
+            p Para representación de una sola variable cualitativa con nivel de medición nominal u ordinal se sugiere trabajar con los gráficos relacionados a continuación:
+            .col-md-6
+                figure
+                  img(src='@/assets/curso/temas/tema2/img27.svg', alt='Texto que describa la imagen')
+            .col-md-6.mb-4.mb-md-0
+              h3 Barras simples 
+              p Muestran el comportamiento de los valores de una sola variable. Se representan mediante barras verticales de igual amplitud para cada categoría y con alturas equivalentes al número de miembros o al porcentaje en cada categoría.
+          
+            .col-md-6.mt-5
+                figure
+                  img(src='@/assets/curso/temas/tema2/img28.svg', alt='Texto que describa la imagen')
+            .col-md-6.mb-4.mb-md-0.mt-5
+              h3 Gráfico circular o de sectores o pastel 
+              p Sectores de un círculo con áreas proporcionales a las frecuencias de clase, utilizados para presentar datos en clase nominales.
+
+          .row(titulo="Una sola variable cualitativa con nivel de medición de razón")
+            p Para casos de una sola variable cuantitativa a nivel de medición de razón o intervalo, se recomienda utilizar los siguientes gráficos:
+            .col-md-6.mt-5
+                figure
+                  img(src='@/assets/curso/temas/tema2/img29.svg', alt='Texto que describa la imagen')
+            .col-md-6.mb-4.mb-md-0.mt-5
+              h3 Histograma de frecuencias
+              p Es aplicable cuando la variable objeto de estudio es cuantitativa y está dada en intervalos de clase. Es útil además cuando interesa analizar el comportamiento del fenómeno en similitud con la curva normal de Gauss.
+            
+            .col-md-6.mt-5
+                figure
+                  img(src='@/assets/curso/temas/tema2/img30.svg', alt='Texto que describa la imagen')
+            .col-md-6.mb-4.mb-md-0.mt-5            
+              h3 Polígono de frecuencias
+              p Permite comparar dos o más conjuntos de datos independientes graficando los polígonos respectivos sobre los mismos ejes.
+
+            .col-md-6.mt-5
+                figure
+                  img(src='@/assets/curso/temas/tema2/img31.svg', alt='Texto que describa la imagen')
+            .col-md-6.mb-4.mb-md-0.mt-5   
+              h3 Polígono de frecuencias acumuladas u ojivas
+              p Cuando los datos son continuos, la gráfica tiene una forma típica, más o menos definida, llamada curva u ojiva. Cuando los datos son discretos, la gráfica tiene una forma escalonada.
+
+          .row(titulo="Dos variables cuantitativas medidas a nivel nominal ")
+            p Para el manejo de dos variables cualitativas medidas a nivel nominal u ordinal, se aconseja representación a través de los siguientes gráficos: 
+            .col-md-6.mt-5
+                figure
+                  img(src='@/assets/curso/temas/tema2/img32.svg', alt='Texto que describa la imagen')
+            .col-md-6.mb-4.mb-md-0.mt-5
+              h3 Barras compuestas 
+              p Representa el comportamiento de dos o más variables o de la misma variable en tipo o lugares diversos.
+            
+            .col-md-6.mt-5
+                figure
+                  img(src='@/assets/curso/temas/tema2/img33.svg', alt='Texto que describa la imagen')
+            .col-md-6.mb-4.mb-md-0.mt-5            
+              h3 Gráfico de áreas 
+              p Sirve para mostrar el comportamiento de dos o más variables cualitativas tomando como patrón de comparación el hecho que las categorías de cada una de las variables, las ubicadas en el eje X, representan el 100 %.
+
+            .col-md-6.mt-5
+                figure
+                  img(src='@/assets/curso/temas/tema2/img34.svg', alt='Texto que describa la imagen')
+            .col-md-6.mb-4.mb-md-0.mt-5   
+              h3 Barras de componentes 
+              p Comparan partes de unas variables entre sí y partes con el total. También se utiliza para comparar barras que tienen formas diferentes.
+
+            .col-md-6.mt-5
+                figure
+                  img(src='@/assets/curso/temas/tema2/img35.svg', alt='Texto que describa la imagen')
+            .col-md-6.mb-4.mb-md-0.mt-5   
+              h3 Barras horizontales
+              p Utiliza barras horizontales en lugares de verticales.
+
+          .row(titulo="Dos variables cuantitativas medidas a nivel de razón")
+            p Y finalmente, ante el análisis de dos variables cuantitativas medidas a nivel de razón o de intervalo, considerar la utilización de gráficos como los que se señalan a continuación:
+            .col-md-6.mt-5
+                figure
+                  img(src='@/assets/curso/temas/tema2/img36.svg', alt='Texto que describa la imagen')
+            .col-md-6.mb-4.mb-md-0.mt-5
+              h3 Gráfico de líneas
+              p Utilizado cuando el fenómeno es analizado en función del tiempo y se pretende mostrar las variaciones.
+            
+            .col-md-6.mt-5
+                figure
+                  img(src='@/assets/curso/temas/tema2/img37.svg', alt='Texto que describa la imagen')
+            .col-md-6.mb-4.mb-md-0.mt-5            
+              h3 Gráfico de relación de variables o nube de puntos
+              p Su uso es apropiado cuando se trata de establecer si existe correlación entre dos variables y su sentido, directa o inversa. (Eje x variables independiente, eje y variable dependiente).
+
+            .col-md-6.mt-5
+                figure
+                  img(src='@/assets/curso/temas/tema2/img38.svg', alt='Texto que describa la imagen')
+            .col-md-6.mb-4.mb-md-0.mt-5   
+              h3 Barras de tendencias
+              p Utilizado básicamente cuando se trata de ajustar un conjunto de datos a un modelo teórico para fines predictivos
+
+            .col-md-6.mt-5
+                figure
+                  img(src='@/assets/curso/temas/tema2/img39.svg', alt='Texto que describa la imagen')
+            .col-md-6.mb-4.mb-md-0.mt-5   
+              h3 Curva de frecuencias o histograma 
+              p Sugiere el uso de una curva suave como una representación idealizada de la distribución de la población.
+
+    .mb-4.mt-5
+      .d-flex.flex-wrap.align-items-center(data-aos="fade-right")
+        img(src='@/assets/curso/temas/icono.svg' style="max-width: 50px;")
+        .h3.col-auto.pb-2.mb-0.ms-2(style=" border-bottom: 2px solid #8628A5;") Fichas técnicas e indicadores del proceso de notificación
     
-      AcordionA.mt-5(tipo="a" clase-tarjeta="tarjeta BGIMG01")
-        .row(titulo="Una sola variable cualitativa con nivel de medición nominal")
-          p Para representación de una sola variable cualitativa con nivel de medición nominal u ordinal se sugiere trabajar con los gráficos relacionados a continuación:
-          .col-md-6
-              figure
-                img(src='@/assets/curso/temas/tema2/img27.svg', alt='Texto que describa la imagen')
-          .col-md-6.mb-4.mb-md-0
-            h3 Barras simples 
-            p Muestran el comportamiento de los valores de una sola variable. Se representan mediante barras verticales de igual amplitud para cada categoría y con alturas equivalentes al número de miembros o al porcentaje en cada categoría.
-        
-          .col-md-6.mt-5
-              figure
-                img(src='@/assets/curso/temas/tema2/img28.svg', alt='Texto que describa la imagen')
-          .col-md-6.mb-4.mb-md-0.mt-5
-            h3 Gráfico circular o de sectores o pastel 
-            p Sectores de un círculo con áreas proporcionales a las frecuencias de clase, utilizados para presentar datos en clase nominales.
+    p(data-aos="fade-left") Con el fin de evaluar la gestión realizada por las entidades territoriales en el sistema de vigilancia en salud pública, se definen indicadores de cumplimiento y oportunidad.
 
-        .row(titulo="Una sola variable cualitativa con nivel de medición de razón")
-          p Para casos de una sola variable cuantitativa a nivel de medición de razón o intervalo, se recomienda utilizar los siguientes gráficos:
-          .col-md-6.mt-5
-              figure
-                img(src='@/assets/curso/temas/tema2/img29.svg', alt='Texto que describa la imagen')
-          .col-md-6.mb-4.mb-md-0.mt-5
-            h3 Histograma de frecuencias
-            p Es aplicable cuando la variable objeto de estudio es cuantitativa y está dada en intervalos de clase. Es útil además cuando interesa analizar el comportamiento del fenómeno en similitud con la curva normal de Gauss.
-          
-          .col-md-6.mt-5
-              figure
-                img(src='@/assets/curso/temas/tema2/img30.svg', alt='Texto que describa la imagen')
-          .col-md-6.mb-4.mb-md-0.mt-5            
-            h3 Polígono de frecuencias
-            p Permite comparar dos o más conjuntos de datos independientes graficando los polígonos respectivos sobre los mismos ejes.
+    .cajon-temas.color-primario.row.justify-content-center
+      .col
+        .row 
+          .col-8.p-4(style='margin-left: 50px')
+            p(data-aos="fade-down") Tomando como base el Decreto 3518 de 2006 se define la notificación obligatoria como “la notificación de aquellos eventos de reporte obligatorio definidos en los modelos y protocolos de vigilancia, dentro de los términos de estructura de datos, responsabilidad, clasificación, periodicidad (semanal o inmediata) y destinos señalados en los mismos y observando los estándares de calidad, y veracidad de la información notificada”.
+            p(data-aos="fade-up") Para efectos de evaluación del sistema se tendrá en cuenta la notificación ya sea positiva o negativa de la ocurrencia de eventos objeto de vigilancia en salud pública para todas las semanas epidemiológicas. Se considera incumplimiento la ausencia de cualquier tipo de reporte (silencio epidemiológico) 
 
-          .col-md-6.mt-5
-              figure
-                img(src='@/assets/curso/temas/tema2/img31.svg', alt='Texto que describa la imagen')
-          .col-md-6.mb-4.mb-md-0.mt-5   
-            h3 Polígono de frecuencias acumuladas u ojivas
-            p Cuando los datos son continuos, la gráfica tiene una forma típica, más o menos definida, llamada curva u ojiva. Cuando los datos son discretos, la gráfica tiene una forma escalonada.
+          .col-3.mt-4.mb-4
+            figure
+              img(src='@/assets/curso/temas/tema2/img40.svg')(style='margin-right: 50px')
 
-        .row(titulo="Dos variables cuantitativas medidas a nivel nominal ")
-          p Para el manejo de dos variables cualitativas medidas a nivel nominal u ordinal, se aconseja representación a través de los siguientes gráficos: 
-          .col-md-6.mt-5
-              figure
-                img(src='@/assets/curso/temas/tema2/img32.svg', alt='Texto que describa la imagen')
-          .col-md-6.mb-4.mb-md-0.mt-5
-            h3 Barras compuestas 
-            p Representa el comportamiento de dos o más variables o de la misma variable en tipo o lugares diversos.
-          
-          .col-md-6.mt-5
-              figure
-                img(src='@/assets/curso/temas/tema2/img33.svg', alt='Texto que describa la imagen')
-          .col-md-6.mb-4.mb-md-0.mt-5            
-            h3 Gráfico de áreas 
-            p Sirve para mostrar el comportamiento de dos o más variables cualitativas tomando como patrón de comparación el hecho que las categorías de cada una de las variables, las ubicadas en el eje X, representan el 100 %.
+    p(data-aos="fade-right").mt-3 Para evaluación del cumplimiento se definen cuatro grupos de indicadores cuyo detalle puede consultar en el Manual para análisis: indicadores para la vigilancia de eventos de interés en salud pública, encontrando: 
+    p(data-aos="fade-left") ● Cumplimiento en la entrega del reporte semanal
+    p(data-aos="fade-right") ● Cumplimiento acumulado de la notificación
+    p(data-aos="fade-left") ● Cumplimiento en el ajuste de casos
+    p(data-aos="fade-right") ● Cumplimiento en envío de muestras de laboratorio
 
-          .col-md-6.mt-5
-              figure
-                img(src='@/assets/curso/temas/tema2/img34.svg', alt='Texto que describa la imagen')
-          .col-md-6.mb-4.mb-md-0.mt-5   
-            h3 Barras de componentes 
-            p Comparan partes de unas variables entre sí y partes con el total. También se utiliza para comparar barras que tienen formas diferentes.
-
-          .col-md-6.mt-5
-              figure
-                img(src='@/assets/curso/temas/tema2/img35.svg', alt='Texto que describa la imagen')
-          .col-md-6.mb-4.mb-md-0.mt-5   
-            h3 Barras horizontales
-            p Utiliza barras horizontales en lugares de verticales.
-
-        .row(titulo="Dos variables cuantitativas medidas a nivel de razón")
-          p Y finalmente, ante el análisis de dos variables cuantitativas medidas a nivel de razón o de intervalo, considerar la utilización de gráficos como los que se señalan a continuación:
-          .col-md-6.mt-5
-              figure
-                img(src='@/assets/curso/temas/tema2/img36.svg', alt='Texto que describa la imagen')
-          .col-md-6.mb-4.mb-md-0.mt-5
-            h3 Gráfico de líneas
-            p Utilizado cuando el fenómeno es analizado en función del tiempo y se pretende mostrar las variaciones.
-          
-          .col-md-6.mt-5
-              figure
-                img(src='@/assets/curso/temas/tema2/img37.svg', alt='Texto que describa la imagen')
-          .col-md-6.mb-4.mb-md-0.mt-5            
-            h3 Gráfico de relación de variables o nube de puntos
-            p Su uso es apropiado cuando se trata de establecer si existe correlación entre dos variables y su sentido, directa o inversa. (Eje x variables independiente, eje y variable dependiente).
-
-          .col-md-6.mt-5
-              figure
-                img(src='@/assets/curso/temas/tema2/img38.svg', alt='Texto que describa la imagen')
-          .col-md-6.mb-4.mb-md-0.mt-5   
-            h3 Barras de tendencias
-            p Utilizado básicamente cuando se trata de ajustar un conjunto de datos a un modelo teórico para fines predictivos
-
-          .col-md-6.mt-5
-              figure
-                img(src='@/assets/curso/temas/tema2/img39.svg', alt='Texto que describa la imagen')
-          .col-md-6.mb-4.mb-md-0.mt-5   
-            h3 Curva de frecuencias o histograma 
-            p Sugiere el uso de una curva suave como una representación idealizada de la distribución de la población.
-
-      .mb-4.mt-5
-        .d-flex.flex-wrap.align-items-center(data-aos="fade-right")
-          img(src='@/assets/curso/temas/icono.svg' style="max-width: 50px;")
-          .h3.col-auto.pb-2.mb-0.ms-2(style=" border-bottom: 2px solid #8628A5;") Fichas técnicas e indicadores del proceso de notificación
-      
-      p(data-aos="fade-left") Con el fin de evaluar la gestión realizada por las entidades territoriales en el sistema de vigilancia en salud pública, se definen indicadores de cumplimiento y oportunidad.
-
-      .cajon-temas.color-primario.row.justify-content-center
-        .col
-          .row 
-            .col-8.p-4(style='margin-left: 50px')
-              p(data-aos="fade-down") Tomando como base el Decreto 3518 de 2006 se define la notificación obligatoria como “la notificación de aquellos eventos de reporte obligatorio definidos en los modelos y protocolos de vigilancia, dentro de los términos de estructura de datos, responsabilidad, clasificación, periodicidad (semanal o inmediata) y destinos señalados en los mismos y observando los estándares de calidad, y veracidad de la información notificada”.
-              p(data-aos="fade-up") Para efectos de evaluación del sistema se tendrá en cuenta la notificación ya sea positiva o negativa de la ocurrencia de eventos objeto de vigilancia en salud pública para todas las semanas epidemiológicas. Se considera incumplimiento la ausencia de cualquier tipo de reporte (silencio epidemiológico) 
-
-            .col-3.mt-4.mb-4
-              figure
-                img(src='@/assets/curso/temas/tema2/img40.svg')(style='margin-right: 50px')
-
-      p(data-aos="fade-right").mt-3 Para evaluación del cumplimiento se definen cuatro grupos de indicadores cuyo detalle puede consultar en el Manual para análisis: indicadores para la vigilancia de eventos de interés en salud pública, encontrando: 
-      p(data-aos="fade-left") ● Cumplimiento en la entrega del reporte semanal
-      p(data-aos="fade-right") ● Cumplimiento acumulado de la notificación
-      p(data-aos="fade-left") ● Cumplimiento en el ajuste de casos
-      p(data-aos="fade-right") ● Cumplimiento en envío de muestras de laboratorio
-
-      .tarjeta.color-secundario.p-3
-              .row.justify-content-around.align-items-center
-                .col-auto
-                  img(src="@/assets/curso/temas/tema2/img41.svg").img65
-                .col
-                  .row.justify-content-between.align-items-center
-                    .col.mb-3.mb-sm-0
-                      p.mb-0.text-small  Manual para análisis: indicadores para la vigilancia de eventos de interés en salud pública. Haga clic para consultarlo.
-                    .col-sm-auto
-                      a.boton.color-acento-botones(href="http://siteold.saludputumayo.gov.co/documentos/NORMAS/MANUAL_INDICADORES.pdf" target="_blank")
-                        span Enlace web
-                        i.fas.fa-file-download
+    .tarjeta.color-secundario.p-3
+            .row.justify-content-around.align-items-center
+              .col-auto
+                img(src="@/assets/curso/temas/tema2/img41.svg").img65
+              .col
+                .row.justify-content-between.align-items-center
+                  .col.mb-3.mb-sm-0
+                    p.mb-0.text-small  Manual para análisis: indicadores para la vigilancia de eventos de interés en salud pública. Haga clic para consultarlo.
+                  .col-sm-auto
+                    a.boton.color-acento-botones(href="http://siteold.saludputumayo.gov.co/documentos/NORMAS/MANUAL_INDICADORES.pdf" target="_blank")
+                      span Enlace web
+                      i.fas.fa-file-code
 
     .row.justify-content-center.mt-5(data-aos="fade-up")
       .col-8
@@ -489,8 +534,8 @@
             .col-auto
               img(src='@/assets/curso/temas/tema2/img43.svg' alt='AvatarTop')
           p.text-center.mt-4 Si el porcentaje de mortalidad de los mosquitos expuestos es <98 %, indica que la especie ha perdido la susceptibilidad al insecticida evaluado, por lo tanto, es importante vigilar y realizar pruebas continuas confirmatorias del insecticida, información que orientaría el cambio del insecticida empleado dentro del programa de control vectorial.
-
-    p(data-aos="fade-up").mt-5 La información sobre la actividad de medición de resistencia o susceptibilidad de los mosquitos Anopheles sp, ante los diferentes insecticidas empleados en el programa de control de las ETV se consigna en el formulario de Susceptibilidad con método CDC – Botella.
+      
+    p(data-aos="fade-up").mt-5 La información sobre la actividad de medición de resistencia o susceptibilidad de los mosquitos <i>Anopheles sp</i>, ante los diferentes insecticidas empleados en el programa de control de las ETV se consigna en el formulario de Susceptibilidad con método CDC – Botella.
 
     separador
     #t_2_3.titulo-segundo.color-acento-botones
@@ -557,8 +602,8 @@
             .h3.col-auto.pb-2.mb-0.ms-2(style=" border-bottom: 2px solid #8628A5;") Acciones de laboratorio
         
         p Las muestras para realizar pruebas de laboratorio son de dos clases:
-        p 1) Identificación de anticuerpos.
-        p 2) Para aislamiento viral.
+        p <b>1)</b> Identificación de anticuerpos.
+        p <b>2)</b> Para aislamiento viral.
 
         .mb-4.mt-3
           .d-flex.flex-wrap.align-items-center(data-aos="fade-right")
