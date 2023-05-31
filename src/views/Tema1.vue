@@ -222,7 +222,7 @@
               p ● Seleccionar las viviendas para colocar las trampas. 
               p ● Coordinar que extraños no manipulen las trampas. 
               p ● Designar personal para inspección de las trampas. 
-              p ● Si hay muestras, hacer identificación taxonómica y enviar el 10% de la muestra al laboratorio regional para su confirmación previo a la notificación
+              p ● Si hay muestras, hacer identificación taxonómica y enviar el 10% de la muestra al laboratorio regional para su confirmación previo a la notificación.
     
 </template>
 

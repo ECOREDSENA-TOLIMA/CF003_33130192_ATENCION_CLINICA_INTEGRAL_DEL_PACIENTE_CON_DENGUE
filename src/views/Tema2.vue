@@ -135,7 +135,7 @@
 
     .row.justify-content-center.tarjeta-temas.color-primario--borde
       .col-10.mt-5
-        p El empleo de insecticidas está destinado a controlar una epidemia de dengue en curso con la destrucción rápida y masiva del <i>Aedes aegypti</i> Para implementar adecuadamente esta estrategia es importante considerar los siguientes aspectos:
+        p El empleo de insecticidas está destinado a controlar una epidemia de dengue en curso con la destrucción rápida y masiva del <i>Aedes aegypti</i>. Para implementar adecuadamente esta estrategia es importante considerar los siguientes aspectos:
       .row.justify-content-center.mt-5 
         .col-4
           figure
@@ -164,7 +164,7 @@
 
               .row(titulo="")
                 .col
-                  p Al seleccionar un insecticida, tener en cuenta la susceptibilidad del vector al producto, su idoneidad para el equipo de aplicación,así como los costos finales de la aplicación por hectárea para la dosis recomendada.
+                  p Al seleccionar un insecticida, tener en cuenta la susceptibilidad del vector al producto, su idoneidad para el equipo de aplicación, así como los costos finales de la aplicación por hectárea para la dosis recomendada.
               .row(titulo="")
                 .col
                   p Al seleccionar el equipo de aplicación y los insecticidas, garantizar el servicio post venta de fabricante, que incluye capacitación y eliminación de recipientes.
@@ -177,7 +177,7 @@
                 .col
                   p Determinar el número y tipo de máquinas (portátiles o montadas en vehículo), sus operadores y personal auxiliar necesario en función del tamaño y características de la zona que se va a intervenir, el tiempo necesario para completar cada ciclo y su frecuencia.
       .col-10.mt-5
-        p.mb-5 Las condiciones climáticas y la actividad de vuelo del <i>Aedes aegypti</i> limitan la operación a dos o tres horas por la mañana. Por ejemplo, si una máquina puede cubrir 60 hectáreas por hora, en tres horas cubriría 180 hectáreas, lo cual requiere seis máquinas para completar esta tarea en una mañana, o, tres máquinas en dos mañanas. Usualmente, se necesitan dos personas para cada nebulizador montado en vehículo, uno para conducir y otro que se encarga del equipo
+        p.mb-5 Las condiciones climáticas y la actividad de vuelo del <i>Aedes aegypti</i> limitan la operación a dos o tres horas por la mañana. Por ejemplo, si una máquina puede cubrir 60 hectáreas por hora, en tres horas cubriría 180 hectáreas, lo cual requiere seis máquinas para completar esta tarea en una mañana, o, tres máquinas en dos mañanas. Usualmente, se necesitan dos personas para cada nebulizador montado en vehículo, uno para conducir y otro que se encarga del equipo.
             
 
     separador
@@ -232,78 +232,64 @@
 
     .row
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta--boton.color-acento-botones
-          .row.justify-content-center.mb-3
-            .col
-              figure
-                img(src='@/assets/curso/temas/tema2/img22.svg', alt='Texto que describa la imagen').p-2
+        .tarjeta--boton.color-acento-botones.p-2.mb-4
+          figure
+            img(src='@/assets/curso/temas/tema2/img22.svg', alt='Texto que describa la imagen')
 
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta--boton.color-acento-botones.p-4
-          .row.justify-content-center.mb-3
-            .col
+        .tarjeta--boton.color-acento-botones.p-4.mb-4
               h3.p-1 Definición:
               p.text-small.p-1 Significado del indicador.
 
       .col-sm-6.col-lg-3.mb-4.mb-sm-0
-        .tarjeta--boton.color-acento-botones.p-4
+        .tarjeta--boton.color-acento-botones.p-4.mb-4
           h3.p-1 Periodicidad:
           p.text-small.p-1 Cada cuánto debe calcularse el indicador.
 
-      .col-sm-6.col-lg-3
-        .tarjeta--boton.color-acento-botones.p-4
-          .row.justify-content-center.mb-3
+      .col-sm-6.col-lg-3.mb-4.mb-sm-0
+        .tarjeta--boton.color-acento-botones.p-4.mb-4
           h3.p-1 Propósito: 
           p.text-small.p-1 Qué se busca evaluar, para qué se construye el indicador.
       
       .col-sm-6.col-lg-3
-        .tarjeta--boton.color-acento-botones.p-4
-          .row.justify-content-center.mb-3
+        .tarjeta--boton.color-acento-botones.p-4.mb-4
           h3.p-1 Definición operacional: 
           p.text-small.p-1 Variables utilizadas para su construcción, datos del numerador y denominador.
 
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta--boton.color-acento-botones.p-4
-          .row.justify-content-center.mb-3
-            .col
+        .tarjeta--boton.color-acento-botones.p-4.mb-4
               h3.p-1 Coeficiente de multiplicación: 
               p.text-small.p-1 Coeficiente de multiplicación, 100, 1000, 100000.…
 
       .col-sm-6.col-lg-3.mb-4.mb-sm-0
-        .tarjeta--boton.color-acento-botones.p-4
+        .tarjeta--boton.color-acento-botones.p-4.mb-4
           h3.p-1 Fuente de información: 
           p.text-small.p-1 De donde se obtienen los datos para construir el indicador.
 
       .col-sm-6.col-lg-3
-        .tarjeta--boton.color-acento-botones.p-4
-          .row.justify-content-center.mb-3
+        .tarjeta--boton.color-acento-botones.p-4.mb-4
           h3.p-1 Interpretación:
           p.text-small.p-1 Qué quiere decir el resultado, lectura del resultado del indicador.
       
       .col-sm-6.col-lg-3
-        .tarjeta--boton.color-acento-botones.p-4
-          .row.justify-content-center.mb-3
+        .tarjeta--boton.color-acento-botones.p-4.mb-4
           h3.p-1 Nivel: 
           p.text-small.p-1 A quiénes aplica el indicador, ámbito de aplicación (municipio, UPGD, departamento o nación)
 
       .col-sm-6.col-lg-3.mt-1
-        .tarjeta--boton.color-acento-botones.p-4
-          .row.justify-content-center.mb-3
+        .tarjeta--boton.color-acento-botones.p-4.mb-4
           h3.p-1 Meta: 
           p.text-small.p-1 Cuál es el valor ideal del indicador en cada nivel de aplicación. 
 
       .col-sm-6.col-lg-3
-        .tarjeta--boton.color-acento-botones.p-4
-          .row.justify-content-center.mb-3
+        .tarjeta--boton.color-acento-botones.p-4.mb-4
           h3.p-1 Aclaraciones: 
           p.text-small.p-1 Aspectos a tener en cuenta para la búsqueda de la fuente de los datos y en general para la construcción del indicador.
       
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta--boton.color-acento-botones
-          .row.justify-content-center.mb-3
-            .col
+        .tarjeta--boton.color-acento-botones.p-2.mb-4
               figure
-                img(src='@/assets/curso/temas/tema2/img23.svg', alt='Texto que describa la imagen').p-2
+                img(src='@/assets/curso/temas/tema2/img23.svg', alt='Texto que describa la imagen')
 
     .row.justify-content-center.mt-5
       .col-7
@@ -450,17 +436,17 @@
         .row 
           .col-8.p-4(style='margin-left: 50px')
             p(data-aos="fade-down") Tomando como base el Decreto 3518 de 2006 se define la notificación obligatoria como “la notificación de aquellos eventos de reporte obligatorio definidos en los modelos y protocolos de vigilancia, dentro de los términos de estructura de datos, responsabilidad, clasificación, periodicidad (semanal o inmediata) y destinos señalados en los mismos y observando los estándares de calidad, y veracidad de la información notificada”.
-            p(data-aos="fade-up") Para efectos de evaluación del sistema se tendrá en cuenta la notificación ya sea positiva o negativa de la ocurrencia de eventos objeto de vigilancia en salud pública para todas las semanas epidemiológicas. Se considera incumplimiento la ausencia de cualquier tipo de reporte (silencio epidemiológico) 
+            p(data-aos="fade-up") Para efectos de evaluación del sistema se tendrá en cuenta la notificación ya sea positiva o negativa de la ocurrencia de eventos objeto de vigilancia en salud pública para todas las semanas epidemiológicas. Se considera incumplimiento la ausencia de cualquier tipo de reporte (silencio epidemiológico).
 
           .col-3.mt-4.mb-4
             figure
               img(src='@/assets/curso/temas/tema2/img40.svg')(style='margin-right: 50px')
 
     p(data-aos="fade-right").mt-3 Para evaluación del cumplimiento se definen cuatro grupos de indicadores cuyo detalle puede consultar en el Manual para análisis: indicadores para la vigilancia de eventos de interés en salud pública, encontrando: 
-    p(data-aos="fade-left") ● Cumplimiento en la entrega del reporte semanal
-    p(data-aos="fade-right") ● Cumplimiento acumulado de la notificación
-    p(data-aos="fade-left") ● Cumplimiento en el ajuste de casos
-    p(data-aos="fade-right") ● Cumplimiento en envío de muestras de laboratorio
+    p(data-aos="fade-left") ● Cumplimiento en la entrega del reporte semanal.
+    p(data-aos="fade-right") ● Cumplimiento acumulado de la notificación.
+    p(data-aos="fade-left") ● Cumplimiento en el ajuste de casos.
+    p(data-aos="fade-right") ● Cumplimiento en envío de muestras de laboratorio.
 
     .tarjeta.color-secundario.p-3
             .row.justify-content-around.align-items-center
@@ -497,7 +483,7 @@
           td Pacientes con formas graves de dengue hospitalizados en tercer nivel.
           td Número de pacientes con dengue grave hospitalizados en tercer nivel.
           td Total de pacientes hospitalizados con diagnóstico de dengue grave.
-          td por cien (x 100)
+          td por cien (x 100).
           td 100 % de pacientes hospitalizados y monitoreados en tercer nivel.
         tr
           td Pacientes con dengue con signos de alarma que evolucionan a dengue grave.

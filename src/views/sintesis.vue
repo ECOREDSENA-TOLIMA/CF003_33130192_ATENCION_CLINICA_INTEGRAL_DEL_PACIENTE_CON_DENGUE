@@ -2,7 +2,9 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-
+    
+    p El dengue es considerado un evento de interés en salud pública de notificación obligatoria, que requiere mejor capacidad de los médicos en la detección temprana de la enfermedad y sistemas proactivos de vigilancia, apoyada en metodología de notificación recolección y análisis de los datos, considerado lineamientos y normativas. 
+    p Igualmente reconociendo la importancia del control y la vigilancia.
     p En el siguiente esquema se presentan las principales temáticas desarrolladas en el componente formativo: 
 
     .row.justify-content-center

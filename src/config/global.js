@@ -120,7 +120,7 @@ export default {
     {
       tema: '2.2 Análisis de datos: indicadores e interpretación',
       referencia:
-        'Ministerio de la Protección Social. Decreto 3518 de 2006. Por medio cual se crea y reglamenta el Sistema de Vigilancia en Salud Pública y se dictan otras disposiciones. 9 de octubre de 2006',
+        'Ministerio de la Protección Social. Decreto 3518 de 2006. Por medio cual se crea y reglamenta el Sistema de Vigilancia en Salud Pública y se dictan otras disposiciones. 9 de octubre de 2006.',
       tipo: 'Decreto',
       link:
         'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/Decreto-3518-de-2006.pdf',
@@ -128,9 +128,9 @@ export default {
     {
       tema: '2.2 Análisis de datos: indicadores e interpretación',
       referencia:
-        'nstituto Nacional de Salud. (2010). Manual para análisis: indicadores para la vigilancia de eventos de interés en salud pública 2012.',
+        'Instituto Nacional de Salud. (2010). Manual para análisis: indicadores para la vigilancia de eventos de interés en salud pública 2012.',
       tipo: 'Manual',
-      descarga:
+      link:
         'http://siteold.saludputumayo.gov.co/documentos/NORMAS/MANUAL_INDICADORES.pdf',
     },
   ],
