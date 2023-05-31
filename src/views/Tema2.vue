@@ -117,7 +117,7 @@
               .row.justify-content-center.mb-3
                 .col-8
                   img(src="@/assets/curso/temas/tema2/img17.svg", alt="alt").img100.m-auto
-              p.text-center.mb-0(style='color: black;') Para el control de emergencias, el empleo de insecticidas está destinado a controlar una epidemia de dengue en curso; el objetivo en este caso es la destrucción rápida y masiva de Aedes A. aegypti.
+              p.text-center.mb-0(style='color: black;') Para el control de emergencias, el empleo de insecticidas está destinado a controlar una epidemia de dengue en curso; el objetivo en este caso es la destrucción rápida y masiva de <i>Aedes aegypti</i>.
 
             .tarjeta.tarjeta--slyder.p-4.tarjeta--blanca.mt-5
               .row.justify-content-center.mb-3
@@ -135,7 +135,7 @@
 
     .row.justify-content-center.tarjeta-temas.color-primario--borde
       .col-10.mt-5
-        p El empleo de insecticidas está destinado a controlar una epidemia de dengue en curso con la destrucción rápida y masiva del Aedes aegypti Para implementar adecuadamente esta estrategia es importante considerar los siguientes aspectos:
+        p El empleo de insecticidas está destinado a controlar una epidemia de dengue en curso con la destrucción rápida y masiva del <i>Aedes aegypti</i> Para implementar adecuadamente esta estrategia es importante considerar los siguientes aspectos:
       .row.justify-content-center.mt-5 
         .col-4
           figure
@@ -177,7 +177,7 @@
                 .col
                   p Determinar el número y tipo de máquinas (portátiles o montadas en vehículo), sus operadores y personal auxiliar necesario en función del tamaño y características de la zona que se va a intervenir, el tiempo necesario para completar cada ciclo y su frecuencia.
       .col-10.mt-5
-        p.mb-5 Las condiciones climáticas y la actividad de vuelo del Aedes aegypti limitan la operación a dos o tres horas por la mañana. Por ejemplo, si una máquina puede cubrir 60 hectáreas por hora, en tres horas cubriría 180 hectáreas, lo cual requiere seis máquinas para completar esta tarea en una mañana, o, tres máquinas en dos mañanas. Usualmente, se necesitan dos personas para cada nebulizador montado en vehículo, uno para conducir y otro que se encarga del equipo
+        p.mb-5 Las condiciones climáticas y la actividad de vuelo del <i>Aedes aegypti</i> limitan la operación a dos o tres horas por la mañana. Por ejemplo, si una máquina puede cubrir 60 hectáreas por hora, en tres horas cubriría 180 hectáreas, lo cual requiere seis máquinas para completar esta tarea en una mañana, o, tres máquinas en dos mañanas. Usualmente, se necesitan dos personas para cada nebulizador montado en vehículo, uno para conducir y otro que se encarga del equipo
             
 
     separador
@@ -541,7 +541,7 @@
     #t_2_3.titulo-segundo.color-acento-botones
       h2 2.3 Acciones: individuales y colectivas
 
-    p(data-aos="fade-up") Se debe vincular a la comunidad en las acciones de prevención, control y vigilancia en salud pública para controlar la infestación por Aedes aegypti.
+    p(data-aos="fade-up") Se debe vincular a la comunidad en las acciones de prevención, control y vigilancia en salud pública para controlar la infestación por <i>Aedes aegypti</i>.
     p(data-aos="fade-down") Los métodos de prevención y control se realizan mediante la ejecución de acciones como las que se destacan a continuación: 
     
     .row
