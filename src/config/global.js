@@ -3,7 +3,7 @@ export default {
     componenteFormativo: 'Vigilancia, prevención y control',
     descripcionCurso:
       'El componente formativo aborda aspectos relacionados con los procesos establecidos para la notificación, recolección y análisis de datos con miras a la generación de información oportuna, válida y confiable para orientar medidas de prevención y control del dengue. ',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {

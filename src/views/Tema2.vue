@@ -11,10 +11,10 @@
     
     .cajon-temas.color-secundario.p-4.p-md-5.mb-5
       .row.justify-content-around.align-items-center
-        .col-8.col-sm-5.col-md-4.mb-4.mb-md-0
+        .col-4
           img(src="@/assets/curso/temas/tema2/img1.svg")
 
-        .col-md.col-lg-6
+        .col-8
           p(data-aos="fade-up") La vigilancia debe ser regular a través de:
           p(data-aos="fade-down") ● Notificación semanal de casos probables.
           p(data-aos="fade-up") ● Búsqueda activa institucional trimestral de casos.
@@ -39,7 +39,7 @@
             .row.align-items-center
               .col-auto
                 figure
-                  img(src="@/assets/curso/temas/tema2/img9.svg", alt="alt")
+                  img(src="@/assets/curso/temas/tema2/img9.svg")
               .col
                 p ● Realizar investigación de campo para establecer las condiciones que han permitido la transmisión de la enfermedad.
           
@@ -49,12 +49,12 @@
             .row.align-items-center
               .col-auto
                 figure
-                  img(src="@/assets/curso/temas/tema2/img10.svg", alt="alt")
+                  img(src="@/assets/curso/temas/tema2/img10.svg")
               .col
                 p ● Indagar por antecedentes como desplazamientos a zonas endémicas o epidémicas para esta enfermedad, contacto con personas con cuadros febriles o con dengue confirmado por laboratorio. 
       
       .row.mt-5.text-white.justify-content-center
-        .col-10.tarjeta.color-primario
+        .col-10.tarjeta-temas.color-custom
           .row 
             .col-7.mt-5
               p(data-aos="fade-down")(style='margin-left: 30px;').mb-5 Ante casos probables de dengue grave, la caracterización del caso implica, en primer lugar, la revisión de la historia clínica para verificar la aplicación de todos los criterios que constituyen la definición operativa para esta enfermedad. Esta información debe complementarse con la verificación de la obtención de muestras de suero para pruebas de laboratorio y el seguimiento de los resultados.
@@ -143,7 +143,7 @@
         .col-6
           .tarjeta-temas.color-acento-contenido.p-4
             PasosB.color-acento-contenido
-              .row(titulo="")
+              .row(titulo="")(style='height: 200px')
                 .col
                   p Definir y caracterizar la zona que va a ser intervenida.
 
@@ -448,14 +448,14 @@
     p(data-aos="fade-left") ● Cumplimiento en el ajuste de casos.
     p(data-aos="fade-right") ● Cumplimiento en envío de muestras de laboratorio.
 
-    .tarjeta.color-secundario.p-3
+    .tarjeta-temas.color-custom2.p-3
             .row.justify-content-around.align-items-center
               .col-auto
                 img(src="@/assets/curso/temas/tema2/img41.svg").img65
               .col
                 .row.justify-content-between.align-items-center
                   .col.mb-3.mb-sm-0
-                    p.mb-0.text-small  Manual para análisis: indicadores para la vigilancia de eventos de interés en salud pública. Haga clic para consultarlo.
+                    p.mb-0.text-white  Manual para análisis: indicadores para la vigilancia de eventos de interés en salud pública. Haga clic para consultarlo.
                   .col-sm-auto
                     a.boton.color-acento-botones(href="http://siteold.saludputumayo.gov.co/documentos/NORMAS/MANUAL_INDICADORES.pdf" target="_blank")
                       span Enlace web
@@ -547,7 +547,7 @@
           p(data-aos="fade-down") ● Orientar a las personas para que asistan oportunamente a los servicios de salud en los casos en que se realiza búsqueda activa de casos. 
 
       .row.mt-5.text-white.justify-content-center
-        .col-10.tarjeta.color-primario
+        .col-10.tarjeta-temas.color-custom
           .row 
             .col-8.mt-5
               p(style='margin-left: 40px;').mt-4 Se debe evaluar la calidad del proceso de atención y llevar a cabo un plan de mejoramiento ante el incremento de letalidad, hospitalización y complicación de casos que evolucionan a choque.

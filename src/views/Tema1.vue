@@ -36,10 +36,10 @@
 
     .cajon-temas.color-secundario.p-4.p-md-5
       .row.justify-content-around.align-items-center
-        .col-8.col-sm-5.col-md-4.mb-4.mb-md-0
+        .col-4
           img(src="@/assets/curso/temas/tema1/img2.svg")
 
-        .col-md.col-lg-6
+        .col-8
           p(data-aos="fade-up") En Colombia el dengue representa un problema prioritario en salud pública debido a:
           p(data-aos="fade-down") ● Intensa transmisión viral con tendencia creciente.
           p(data-aos="fade-up") ● Ciclos epidémicos cada vez más cortos.
@@ -86,7 +86,7 @@
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
       .tarjeta--container.row.mb-5
-        .col-md.tarjeta-temas.color-primario.p-5
+        .col-md.tarjeta-temas.color-primario.p-5(style='margin-right: 10px')
           .row.justify-content-center.mb-4
             .col-6
               figure
@@ -115,9 +115,9 @@
 
     .cajon-temas.color-acento-contenido.md-5.mb-5
       .row.justify-content-around.align-items-center
-        .col-8.col-sm-5.col-md-4
-          img(src="@/assets/curso/temas/tema1/img7.svg")(style='margin-left:-52px')
-        .col-md.col-lg-6
+        .col-4
+          img(src="@/assets/curso/temas/tema1/img7.svg")
+        .col-8
           .mb-4
             .d-flex.flex-wrap.align-items-center(data-aos="fade-right")
               img(src='@/assets/curso/temas/icono.svg' style="max-width: 50px;")
@@ -151,13 +151,13 @@
               figure
                 img(src='@/assets/curso/temas/tema1/img8.svg', alt='Sensibilizar a la población y las autoridades de diferentes sectores sobre la importancia de la presencia del Aedes aegypti')
 
-          p.text-small Sensibilizar a la población y las autoridades de diferentes sectores sobre la importancia de la presencia del <i>Aedes aegypti</i>.
+          p Sensibilizar a la población y las autoridades de diferentes sectores sobre la importancia de la presencia del <i>Aedes aegypti</i>.
 
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta-temas--botonb.color-primario.p-4
           .row.justify-content-center.mb-3
           
-          p.text-small Incorporar la participación de los gobiernos regionales (CTAR), gobiernos locales (municipalidad), sector educación, empresas prestadoras de agua y saneamiento y principalmente, las organizaciones comunales, que garanticen el sostenimiento y continuidad de las actividades de vigilancia entomológica, a nivel nacional.
+          p Incorporar la participación de los gobiernos regionales (CTAR), gobiernos locales (municipalidad), sector educación, empresas prestadoras de agua y saneamiento y principalmente, las organizaciones comunales, que garanticen el sostenimiento y continuidad de las actividades de vigilancia entomológica, a nivel nacional.
 
       .col-sm-6.col-lg-3.mb-4.mb-sm-0
         .tarjeta-temas--boton.color-secundario.p-4
@@ -166,7 +166,7 @@
               figure
                 img(src='@/assets/curso/temas/tema1/img9.svg', alt='Fortalecer la capacidad técnica de los laboratorios de Salud Pública y las densas para la vigilancia entomológica.')
           
-          p.text-small Fortalecer la capacidad técnica de los laboratorios de Salud Pública y las densas para la vigilancia entomológica.
+          p Fortalecer la capacidad técnica de los laboratorios de Salud Pública y las densas para la vigilancia entomológica.
 
       .col-sm-6.col-lg-3
         .tarjeta-temas--botonb.color-primario.p-4
@@ -175,7 +175,7 @@
               figure
                 img(src='@/assets/curso/temas/tema1/img10.svg', alt='Promover desde el nivel local la investigación operativa.')
          
-          p.text-small  Promover desde el nivel local la investigación operativa.
+          p  Promover desde el nivel local la investigación operativa.
     
     p(data-aos="fade-up") La Dirección General de Salud Ambiental, coordina, planifica, administra y supervisa a nivel nacional, el sistema de vigilancia entomológica, a través de la Dirección Ejecutiva de Saneamiento Básico (DESAB) y a nivel departamental, las Direcciones de Salud coordinan las acciones operativas en el ámbito intermedio y local de su jurisdicción. Además, se hace necesario la participación integrada y coordinada de instituciones del sector y de otros sectores, gobiernos regionales o departamentales.
     p(data-aos="fade-down") En cuanto a la organización de las actividades de vigilancia entomológica, se hace necesario atender los siguientes aspectos antes de iniciar con su desarrollo:
