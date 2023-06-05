@@ -11,8 +11,9 @@
     
     .cajon-temas.color-secundario.p-4.p-md-5.mb-5
       .row.justify-content-around.align-items-center
-        .col-4
-          img(src="@/assets/curso/temas/tema2/img1.svg")
+        .col-1
+        .col-3
+          img(src="@/assets/curso/temas/tema2/img1.png")
 
         .col-8
           p(data-aos="fade-up") La vigilancia debe ser regular a través de:
@@ -34,9 +35,9 @@
 
     .row.justify-content-center.mb-5
       .col-sm-5.col-lg-5.mb-4.mb-lg-0
-        .tarjeta--boton.color-secundario.p-4
-          .crd.crd--avatarHorizontal.crd--first.py-4
-            .row.align-items-center
+        .tarjeta--boton.color-secundario.p-4(style="height:100%")
+          .crd.crd--avatarHorizontal.crd--first.py-4(style="height:100%")
+            .row.justify-content-center.align-items-center(style="height:100%")
               .col-auto
                 figure
                   img(src="@/assets/curso/temas/tema2/img9.svg")
@@ -44,9 +45,9 @@
                 p ● Realizar investigación de campo para establecer las condiciones que han permitido la transmisión de la enfermedad.
           
       .col-sm-6.col-lg-5.mb-4.mb-lg-0
-        .tarjeta--boton.color-secundario.p-4
-          .crd.crd--avatarHorizontal.crd--first.py-4
-            .row.align-items-center
+        .tarjeta--boton.color-secundario.p-4(style="height:100%")
+          .crd.crd--avatarHorizontal.crd--first.py-4(style="height:100%")
+            .row.justify-content-center.align-items-center(style="height:100%")
               .col-auto
                 figure
                   img(src="@/assets/curso/temas/tema2/img10.svg")
@@ -55,12 +56,12 @@
       
       .row.mt-5.text-white.justify-content-center
         .col-10.tarjeta-temas.color-custom
-          .row 
-            .col-7.mt-5
+          .row.justify-content-center
+            .col-9.mt-5
               p(data-aos="fade-down")(style='margin-left: 30px;').mb-5 Ante casos probables de dengue grave, la caracterización del caso implica, en primer lugar, la revisión de la historia clínica para verificar la aplicación de todos los criterios que constituyen la definición operativa para esta enfermedad. Esta información debe complementarse con la verificación de la obtención de muestras de suero para pruebas de laboratorio y el seguimiento de los resultados.
-            .col-3.mt-4
+            .col-3.mt-4(style="padding-right: 0px")
               figure
-                img(src='@/assets/curso/temas/tema2/img11.svg')(style='margin-left: 182px;')
+                img(src='@/assets/curso/temas/tema2/img11.svg')(style="margin-left:1px")
 
       .row.justify-content-center.mt-5 
         .col-10  
@@ -72,7 +73,7 @@
           .col-8.col-sm-5.col-md-4.mb-4.mb-md-0
             img(src="@/assets/curso/temas/tema2/img12.svg")
 
-          .col-md.col-lg-6
+          .col-md.col-lg-8
             .mb-4
               .d-flex.flex-wrap.align-items-center(data-aos="fade-right")
                 img(src='@/assets/curso/temas/icono.svg' style="max-width: 50px;")

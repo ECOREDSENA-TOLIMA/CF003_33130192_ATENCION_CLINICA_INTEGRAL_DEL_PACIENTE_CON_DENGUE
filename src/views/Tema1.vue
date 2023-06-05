@@ -1,5 +1,5 @@
 <template lang="pug">
-.curso-main-container.pb-3
+.curso-main-container.pb-3.tema1
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-contenido
@@ -8,25 +8,27 @@
       h1 Vigilancia en salud pública
       
     .row 
-      .col-lg-7
+      .col-lg-9
         p(data-aos="fade-down") El dengue es un evento de interés en salud pública de notificación obligatoria, que debe cumplirse según los lineamientos e instrumentos del sistema de vigilancia en salud pública nacional, teniendo en cuenta las definiciones de caso vigentes definidas en el protocolo de vigilancia nacional. 
         p(data-aos="fade-left") Por ello, es importante realizar capacitación al personal médico en la detección temprana de la enfermedad y en los sistemas de vigilancia que no son conocidos por gran parte de los equipos de salud en el país.
         p(data-aos="fade-right") En la notificación se debe tener presente, la recolección y análisis de los datos que orientarán las medidas de prevención y control de los casos de dengue y dengue grave a nivel nacional, departamental y municipal según se requiera:
-      .col-lg-5(data-aos="fade-up")
+      .col-lg-3(data-aos="fade-up")
         figure
           img(src='@/assets/curso/temas/tema1/img1.svg').m-auto
     
-    .tabla-b.color-acento-contenido
-      table
-        tr.tabla-b__header
-          th Notificación
-          th Responsabilidad
-        tr
-          th(style='width:30%') Notificación semanal
-          td Los casos de dengue se deben notificar semanalmente, de acuerdo con la estructura y contenido mínimo establecidos en el subsistema de vigilancia de los eventos de interés en salud pública. <br/><br/> La notificación de los casos de dengue grave y mortalidad por dengue se exige desde su clasificación como probable y en el nivel local es inmediata.
-        tr
-          th(style='width:30%') Ajustes por periodos epidemiológicos
-          td Los ajustes a la información de casos probables de dengue y clasificación final de los casos se deben realizar a más tardar en el período epidemiológico inmediatamente posterior a la notificación del caso de conformidad con los mecanismos definidos por el sistema.
+    .row.justify-content-center.align-items-center.mt-4.mb-4
+      .col-lg-10.col-12
+        .tabla-b.color-acento-contenido
+          table
+            tr.tabla-b__header
+              th Notificación
+              th Responsabilidad
+            tr
+              th(style='width:30%') Notificación semanal
+              td Los casos de dengue se deben notificar semanalmente, de acuerdo con la estructura y contenido mínimo establecidos en el subsistema de vigilancia de los eventos de interés en salud pública. <br/><br/> La notificación de los casos de dengue grave y mortalidad por dengue se exige desde su clasificación como probable y en el nivel local es inmediata.
+            tr
+              th(style='width:30%') Ajustes por periodos epidemiológicos
+              td Los ajustes a la información de casos probables de dengue y clasificación final de los casos se deben realizar a más tardar en el período epidemiológico inmediatamente posterior a la notificación del caso de conformidad con los mecanismos definidos por el sistema.
 
     separador
     #t_1_1.titulo-segundo.color-acento-contenido
@@ -36,10 +38,10 @@
 
     .cajon-temas.color-secundario.p-4.p-md-5
       .row.justify-content-around.align-items-center
-        .col-4
+        .col-lg-3.col-md-6.col-10
           img(src="@/assets/curso/temas/tema1/img2.svg")
 
-        .col-8
+        .col-lg-9.col-12
           p(data-aos="fade-up") En Colombia el dengue representa un problema prioritario en salud pública debido a:
           p(data-aos="fade-down") ● Intensa transmisión viral con tendencia creciente.
           p(data-aos="fade-up") ● Ciclos epidémicos cada vez más cortos.
@@ -50,11 +52,11 @@
 
     p(data-aos="fade-up").mt-5 La dinámica de transmisión del virus dengue, depende de interacciones entre el ambiente, el agente, la población huésped y el vector, que coexisten en un hábitat específico. La magnitud e intensidad de la interacción de estos factores define la transmisión del dengue en una localidad, distrito, región o país. Estos componentes pueden agruparse en macrofactores y microfactores determinantes de la transmisión:
 
-    .row.justify-content-center
+    .row.justify-content-center.mt-5.mb-4
       .col-sm-6.col-lg-5.mb-4.mb-lg-0
-        .tarjeta--boton.p-4
-          .crd.crd--avatarHorizontal.crd--first.py-4
-            .row.align-items-center
+        .tarjeta--boton.p-4(style="height:100%")
+          .crd.crd--avatarHorizontal.crd--first.py-0(style="height:100%")
+            .row.justify-content-center.align-items-center(style="height:100%")
               .col-auto
                 figure
                   img(src="@/assets/curso/temas/tema1/img3.svg", alt="alt")
@@ -63,9 +65,9 @@
                 p Factores ambientales y sociales.
           
       .col-sm-6.col-lg-5.mb-4.mb-lg-0
-        .tarjeta--boton.p-4
-          .crd.crd--avatarHorizontal.crd--first.py-4
-            .row.align-items-center
+        .tarjeta--boton.p-4(style="height:100%")
+          .crd.crd--avatarHorizontal.crd--first.py-0(style="height:100%")
+            .row.justify-content-center.align-items-center(style="height:100%")
               .col-auto
                 figure
                   img(src="@/assets/curso/temas/tema1/img4.svg", alt="alt")
@@ -86,7 +88,7 @@
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
       .tarjeta--container.row.mb-5
-        .col-md.tarjeta-temas.color-primario.p-5(style='margin-right: 10px')
+        .col-md.tarjeta-temas.color-primario.p-5(style='border-top-right-radius: inherit; border-bottom-right-radius: inherit;')
           .row.justify-content-center.mb-4
             .col-6
               figure
@@ -94,7 +96,7 @@
       
           h2.text-center Vigilancia serológica
           p Consiste en la detección de anticuerpos de IgM específicos del dengue en el suero del paciente, del 93 al 98 % detestables a partir del sexto al décimo día. Se puede emplear para la vigilancia clínica y para calcular los índices de transmisión de la enfermedad a través de las encuestas serológicas basadas en la población realizadas poco después de que la transmisión epidémica comienza a ceder.
-        .col-md.tarjeta-temas.color-secundario.p-5
+        .col-md.tarjeta-temas.color-secundario.p-5(style='border-bottom-left-radius: inherit; border-top-left-radius: inherit;')
           .row.justify-content-center.mb-4
             .col-6
               figure
@@ -115,19 +117,19 @@
 
     .cajon-temas.color-acento-contenido.md-5.mb-5
       .row.justify-content-around.align-items-center
-        .col-4
+        .col-md-4.col-4
           img(src="@/assets/curso/temas/tema1/img7.svg")
-        .col-8
+        .col-md-8.col-12.mt-4
           .mb-4
             .d-flex.flex-wrap.align-items-center(data-aos="fade-right")
               img(src='@/assets/curso/temas/icono.svg' style="max-width: 50px;")
-              .h3.col-auto.pb-2.mb-0.ms-2(style=" border-bottom: 2px solid #8628A5;") Objetivo General:
+              .h3.col-auto.pb-2.mb-0.ms-2(style=" border-bottom: 2px solid #8628A5;") Objetivo general:
           p(data-aos="fade-up") Conocer el comportamiento, la distribución, abundancia y dispersión del vector, sus costumbres y su relación con el ambiente que permita proporcionar información de calidad adecuada y oportuna sobre el <i>Aedes aegypti</i>.
 
           .mb-4
             .d-flex.flex-wrap.align-items-center(data-aos="fade-right")
               img(src='@/assets/curso/temas/icono.svg' style="max-width: 50px;")
-              .h3.col-auto.pb-2.mb-0.ms-2(style=" border-bottom: 2px solid #8628A5;") Objetivos Específicos: 
+              .h3.col-auto.pb-2.mb-0.ms-2(style=" border-bottom: 2px solid #8628A5;") Objetivos específicos: 
 
           p ● Identificar factores y variables bióticos y abióticos bajo los cuales se desarrolla el vector y la ocurrencia de las enfermedades en humanos.
           p ● Generar y sistematizar información para establecer las medidas de prevención y control oportunas según los índices entomológicos encontrados mediante la vigilancia del vector.
@@ -143,39 +145,39 @@
     p(data-aos="fade-up") La vigilancia entomológica tendrá como área de influencia todo el territorio nacional, según escenarios epidemiológicos.
     p(data-aos="fade-up") El Sistema de Vigilancia Entomológica se sustenta en el fortalecimiento institucional, la coordinación intra y extrasectorial y la participación comunitaria, a través de la implementación de las estrategias relacionadas a continuación: 
 
-    .row.mt-5.mb-5
+    .row.mt-5.mb-5.justify-content-between
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta-temas--boton.color-secundario.p-4
-          .row.justify-content-center.mb-3
-            .col-7
+        .tarjeta-temas--boton.color-secundario.p-4(style="height:100%")
+          .row.justify-content-center.mb-3(style="margin-bottom: 0px !important;")
+            .col-10
               figure
                 img(src='@/assets/curso/temas/tema1/img8.svg', alt='Sensibilizar a la población y las autoridades de diferentes sectores sobre la importancia de la presencia del Aedes aegypti')
-
-          p Sensibilizar a la población y las autoridades de diferentes sectores sobre la importancia de la presencia del <i>Aedes aegypti</i>.
+            .col-12.mb-0.px-0.pt-4
+              p.mb-0 Sensibilizar a la población y las autoridades de diferentes sectores sobre la importancia de la presencia del <i>Aedes aegypti</i>.
 
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta-temas--botonb.color-primario.p-4
-          .row.justify-content-center.mb-3
-          
-          p Incorporar la participación de los gobiernos regionales (CTAR), gobiernos locales (municipalidad), sector educación, empresas prestadoras de agua y saneamiento y principalmente, las organizaciones comunales, que garanticen el sostenimiento y continuidad de las actividades de vigilancia entomológica, a nivel nacional.
+        .tarjeta-temas--botonb.color-primario.p-4(style="height:100%")
+          .row.justify-content-center.mb-3(style="")
+            .col-12.px-0
+              p Incorporar la participación de los gobiernos regionales (CTAR), gobiernos locales (municipalidad), sector educación, empresas prestadoras de agua y saneamiento y principalmente, las organizaciones comunales, que garanticen el sostenimiento y continuidad de las actividades de vigilancia entomológica, a nivel nacional.
 
       .col-sm-6.col-lg-3.mb-4.mb-sm-0
-        .tarjeta-temas--boton.color-secundario.p-4
-          .row.justify-content-center.mb-3
-            .col-7
+        .tarjeta-temas--boton.color-secundario.p-4(style="height:100%")
+          .row.justify-content-center.mb-3(style="")
+            .col-10
               figure
                 img(src='@/assets/curso/temas/tema1/img9.svg', alt='Fortalecer la capacidad técnica de los laboratorios de Salud Pública y las densas para la vigilancia entomológica.')
-          
-          p Fortalecer la capacidad técnica de los laboratorios de Salud Pública y las densas para la vigilancia entomológica.
+            .col-12.px-0.pt-4
+              p Fortalecer la capacidad técnica de los laboratorios de Salud Pública y las densas para la vigilancia entomológica.
 
       .col-sm-6.col-lg-3
-        .tarjeta-temas--botonb.color-primario.p-4
-          .row.justify-content-center.mb-3
-            .col-7
+        .tarjeta-temas--botonb.color-primario.p-4(style="height:100%")
+          .row.justify-content-center.mb-3(style="")
+            .col-10
               figure
                 img(src='@/assets/curso/temas/tema1/img10.svg', alt='Promover desde el nivel local la investigación operativa.')
-         
-          p  Promover desde el nivel local la investigación operativa.
+            .col-12.px-0.pt-4
+              p  Promover desde el nivel local la investigación operativa.
     
     p(data-aos="fade-up") La Dirección General de Salud Ambiental, coordina, planifica, administra y supervisa a nivel nacional, el sistema de vigilancia entomológica, a través de la Dirección Ejecutiva de Saneamiento Básico (DESAB) y a nivel departamental, las Direcciones de Salud coordinan las acciones operativas en el ámbito intermedio y local de su jurisdicción. Además, se hace necesario la participación integrada y coordinada de instituciones del sector y de otros sectores, gobiernos regionales o departamentales.
     p(data-aos="fade-down") En cuanto a la organización de las actividades de vigilancia entomológica, se hace necesario atender los siguientes aspectos antes de iniciar con su desarrollo:
