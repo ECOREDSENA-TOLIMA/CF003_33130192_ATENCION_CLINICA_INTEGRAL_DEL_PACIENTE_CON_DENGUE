@@ -15,7 +15,7 @@
         .col-3
           img(src="@/assets/curso/temas/tema2/img1.png")
 
-        .col-8
+        .col-10
           p(data-aos="fade-up") La vigilancia debe ser regular a través de:
           p(data-aos="fade-down") ● Notificación semanal de casos probables.
           p(data-aos="fade-up") ● Búsqueda activa institucional trimestral de casos.
@@ -137,49 +137,69 @@
     .row.justify-content-center.tarjeta-temas.color-primario--borde
       .col-10.mt-5
         p El empleo de insecticidas está destinado a controlar una epidemia de dengue en curso con la destrucción rápida y masiva del <i>Aedes aegypti</i>. Para implementar adecuadamente esta estrategia es importante considerar los siguientes aspectos:
-      .row.justify-content-center.mt-5 
-        .col-4
-          figure
-              img(src='@/assets/curso/temas/tema2/img55.svg')
-        .col-6
-          .tarjeta-temas.color-acento-contenido.p-4
-            PasosB.color-acento-contenido
-              .row(titulo="")(style='height: 200px')
-                .col
-                  p Definir y caracterizar la zona que va a ser intervenida.
+        .tarjeta-temas.color-acento-contenido.p-4
+          PasosB.color-acento-contenido
+            .row(titulo="")
+              .col-md-7.mb-4.mb-md-0
+                p Definir y caracterizar la zona que va a ser intervenida.
+              .col-md-3
+                figure
+                  img(src='@/assets/curso/temas/tema2/img55.svg')
+            .row(titulo="")
+              .col-md-3
+                figure
+                  img(src='@/assets/curso/temas/tema2/img55.svg')
+              .col-md-7.mb-4.mb-md-0
+                p Determinar los métodos de tratamiento espacial y selección del equipo más adecuado.
+            .row(titulo="")
+              .col-md-3
+                figure
+                  img(src='@/assets/curso/temas/tema2/img55.svg')
+              .col-md-7.mb-4.mb-md-0
+                p Utilizar mapas o croquis para la planificación de los recorridos.
+            .row(titulo="")
+              .col-md-3
+                figure
+                  img(src='@/assets/curso/temas/tema2/img55.svg')
+              .col-md-7.mb-4.mb-md-0
+                p Calcular la zona total en hectáreas y establecer trayectorias, distancias y velocidades con el vehículo y a pie.
 
-              .row(titulo="")
-                .col
-                  p Determinar los métodos de tratamiento espacial y selección del equipo más adecuado.
+            .row(titulo="")
+              .col-md-3
+                figure
+                  img(src='@/assets/curso/temas/tema2/img55.svg')
+              .col-md-7.mb-4.mb-md-0
+                p Aplicar la dosis correcta para el caudal de la máquina.
 
-              .row(titulo="")
-                .col
-                  p Utilizar mapas o croquis para la planificación de los recorridos.
-              .row(titulo="")
-                .col
-                  p Calcular la zona total en hectáreas y establecer trayectorias, distancias y velocidades con el vehículo y a pie.
+            .row(titulo="")
+              .col-md-3
+                figure
+                  img(src='@/assets/curso/temas/tema2/img55.svg')
+              .col-md-7.mb-4.mb-md-0
+                p Al seleccionar un insecticida, tener en cuenta la susceptibilidad del vector al producto, su idoneidad para el equipo de aplicación, así como los costos finales de la aplicación por hectárea para la dosis recomendada.
 
-              .row(titulo="")
-                .col
-                  p Aplicar la dosis correcta para el caudal de la máquina.
+            .row(titulo="")
+              .col-md-3
+                figure
+                  img(src='@/assets/curso/temas/tema2/img55.svg')
+              .col-md-7.mb-4.mb-md-0
+                p Al seleccionar el equipo de aplicación y los insecticidas, garantizar el servicio post venta de fabricante, que incluye capacitación y eliminación de recipientes.
+            .row(titulo="")
+              .col-md-3
+                figure
+                  img(src='@/assets/curso/temas/tema2/img55.svg')
+              .col-md-7.mb-4.mb-md-0
+                p Definir el número de tratamientos y el intervalo entre ellos, de acuerdo al objetivo de la operación.
 
-              .row(titulo="")
-                .col
-                  p Al seleccionar un insecticida, tener en cuenta la susceptibilidad del vector al producto, su idoneidad para el equipo de aplicación, así como los costos finales de la aplicación por hectárea para la dosis recomendada.
-              .row(titulo="")
-                .col
-                  p Al seleccionar el equipo de aplicación y los insecticidas, garantizar el servicio post venta de fabricante, que incluye capacitación y eliminación de recipientes.
+            .row(titulo="")
+              .col-md-3
+                figure
+                  img(src='@/assets/curso/temas/tema2/img55.svg')
+              .col-md-7.mb-4.mb-md-0
+                p Determinar el número y tipo de máquinas (portátiles o montadas en vehículo), sus operadores y personal auxiliar necesario en función del tamaño y características de la zona que se va a intervenir, el tiempo necesario para completar cada ciclo y su frecuencia.
 
-              .row(titulo="")
-                .col
-                  p Definir el número de tratamientos y el intervalo entre ellos, de acuerdo al objetivo de la operación.
-
-              .row(titulo="")
-                .col
-                  p Determinar el número y tipo de máquinas (portátiles o montadas en vehículo), sus operadores y personal auxiliar necesario en función del tamaño y características de la zona que se va a intervenir, el tiempo necesario para completar cada ciclo y su frecuencia.
       .col-10.mt-5
         p.mb-5 Las condiciones climáticas y la actividad de vuelo del <i>Aedes aegypti</i> limitan la operación a dos o tres horas por la mañana. Por ejemplo, si una máquina puede cubrir 60 hectáreas por hora, en tres horas cubriría 180 hectáreas, lo cual requiere seis máquinas para completar esta tarea en una mañana, o, tres máquinas en dos mañanas. Usualmente, se necesitan dos personas para cada nebulizador montado en vehículo, uno para conducir y otro que se encarga del equipo.
-            
 
     separador
     #t_2_2.titulo-segundo.color-acento-contenido
@@ -576,7 +596,7 @@
 
           .col-4.mt-5
             figure
-              img(src='@/assets/curso/temas/tema2/img46.svg')
+              img(src='@/assets/curso/temas/tema2/img46.png')
 
     .row.justify-content-center.BGIMG03
       .col-lg-4

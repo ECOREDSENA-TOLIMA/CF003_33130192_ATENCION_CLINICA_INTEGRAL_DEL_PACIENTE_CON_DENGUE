@@ -92,7 +92,7 @@
           .row.justify-content-center.mb-4
             .col-6
               figure
-                img(src='@/assets/curso/temas/tema1/img5.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema1/img5.svg')
       
           h2.text-center Vigilancia serológica
           p Consiste en la detección de anticuerpos de IgM específicos del dengue en el suero del paciente, del 93 al 98 % detestables a partir del sexto al décimo día. Se puede emplear para la vigilancia clínica y para calcular los índices de transmisión de la enfermedad a través de las encuestas serológicas basadas en la población realizadas poco después de que la transmisión epidémica comienza a ceder.
@@ -100,7 +100,7 @@
           .row.justify-content-center.mb-4
             .col-6
               figure
-                img(src='@/assets/curso/temas/tema1/img6.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema1/img6.svg')
             
           h2.text-center Vigilancia virológica
           p Complementa la vigilancia serológica y es fundamental para desarrollar un sistema de alerta inmediata y predictiva del dengue epidémico. El método de elección para el aislamiento de rutina del virus es su inoculación a la línea de células de mosquito c6/36, que son detectados en los primeros cinco días de la enfermedad.
