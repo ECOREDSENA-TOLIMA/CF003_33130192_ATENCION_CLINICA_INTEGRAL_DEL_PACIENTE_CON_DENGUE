@@ -7,12 +7,12 @@
         span 1
       h1 Vigilancia en salud pública
       
-    .row 
-      .col-lg-7
+    .row
+      .col-lg-9
         p(data-aos="fade-down") El dengue es un evento de interés en salud pública de notificación obligatoria, que debe cumplirse según los lineamientos e instrumentos del sistema de vigilancia en salud pública nacional, teniendo en cuenta las definiciones de caso vigentes definidas en el protocolo de vigilancia nacional. 
         p(data-aos="fade-left") Por ello, es importante realizar capacitación al personal médico en la detección temprana de la enfermedad y en los sistemas de vigilancia que no son conocidos por gran parte de los equipos de salud en el país.
         p(data-aos="fade-right") En la notificación se debe tener presente, la recolección y análisis de los datos que orientarán las medidas de prevención y control de los casos de dengue y dengue grave a nivel nacional, departamental y municipal según se requiera:
-      .col-lg-5(data-aos="fade-up")
+      .col-lg-3(data-aos="fade-up")
         figure
           img(src='@/assets/curso/temas/tema1/img1.svg').m-auto
     
@@ -36,10 +36,10 @@
 
     .cajon-temas.color-secundario.p-4.p-md-5
       .row.justify-content-around.align-items-center
-        .col-4
+        .col-3
           img(src="@/assets/curso/temas/tema1/img2.svg")
 
-        .col-8
+        .col-9
           p(data-aos="fade-up") En Colombia el dengue representa un problema prioritario en salud pública debido a:
           p(data-aos="fade-down") ● Intensa transmisión viral con tendencia creciente.
           p(data-aos="fade-up") ● Ciclos epidémicos cada vez más cortos.
@@ -86,11 +86,11 @@
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
       .tarjeta--container.row.mb-5
-        .col-md.tarjeta-temas.color-primario.p-5(style='margin-right: 10px')
+        .col-md.tarjeta-temas.color-primario.p-5
           .row.justify-content-center.mb-4
             .col-6
               figure
-                img(src='@/assets/curso/temas/tema1/img5.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema1/img5.svg')
       
           h2.text-center Vigilancia serológica
           p Consiste en la detección de anticuerpos de IgM específicos del dengue en el suero del paciente, del 93 al 98 % detestables a partir del sexto al décimo día. Se puede emplear para la vigilancia clínica y para calcular los índices de transmisión de la enfermedad a través de las encuestas serológicas basadas en la población realizadas poco después de que la transmisión epidémica comienza a ceder.
@@ -98,7 +98,7 @@
           .row.justify-content-center.mb-4
             .col-6
               figure
-                img(src='@/assets/curso/temas/tema1/img6.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema1/img6.svg')
             
           h2.text-center Vigilancia virológica
           p Complementa la vigilancia serológica y es fundamental para desarrollar un sistema de alerta inmediata y predictiva del dengue epidémico. El método de elección para el aislamiento de rutina del virus es su inoculación a la línea de células de mosquito c6/36, que son detectados en los primeros cinco días de la enfermedad.
@@ -115,10 +115,10 @@
 
     .cajon-temas.color-acento-contenido.md-5.mb-5
       .row.justify-content-around.align-items-center
-        .col-4
-          img(src="@/assets/curso/temas/tema1/img7.svg")
-        .col-8
-          .mb-4
+        .col-3
+          img(src="@/assets/curso/temas/tema1/img7.svg").mt-5
+        .col-9
+          .mb-4.mt-3
             .d-flex.flex-wrap.align-items-center(data-aos="fade-right")
               img(src='@/assets/curso/temas/icono.svg' style="max-width: 50px;")
               .h3.col-auto.pb-2.mb-0.ms-2(style=" border-bottom: 2px solid #8628A5;") Objetivo General:
