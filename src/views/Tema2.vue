@@ -587,9 +587,9 @@
             img(src='@/assets/curso/temas/icono.svg' style="max-width: 50px;")
             .h3.col-auto.pb-2.mb-0.ms-2(style=" border-bottom: 2px solid #8628A5;") Medidas de vigilancia por laboratorio
         p(data-aos="fade-down") Las medidas de vigilancia por laboratorio proveen información sobre los serotipos de los virus circulantes detectando oportunamente la introducción de nuevos serotipos en un área. La vigilancia virológica se debe realizar de forma rutinaria a pacientes con menos de cinco días de evolución. Se obtendrán cinco muestras de suero semanales para ser remitidas al INS según las indicaciones de transporte de muestras para aislamiento viral. 
-        p(data-aos="fade-up") Se podrán realizar estudios de prevalencia en áreas que requieran documentar la situación serológica de la población para detectar oportunamente la introducción de serotipos. En caso de brotes, se deben tomar muestras de 5 % de los casos de dengue clásico (una por cada 20 pacientes) y a todos los casos de dengue grave.
+        p(data-aos="fade-up") Se podrán realizar estudios de prevalencia en áreas que requieran documentar la situación serológica de la población para detectar oportunamente la introducción de serotipos. En caso de brotes, se deben tomar muestras de 5% de los casos de dengue clásico (una por cada 20 pacientes) y a todos los casos de dengue grave.
 
-      .col.md-4.col-6.mt-5
+      .col-md-4.col-6.mt-5
         figure
           img(src='@/assets/curso/temas/tema2/img46.png')
 
