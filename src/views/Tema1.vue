@@ -123,13 +123,13 @@
           .mb-4
             .d-flex.flex-wrap.align-items-center(data-aos="fade-right")
               img(src='@/assets/curso/temas/icono.svg' style="max-width: 50px;")
-              .h3.col-auto.pb-2.mb-0.ms-2(style=" border-bottom: 2px solid #8628A5;") Objetivo general:
+              .h3.col-auto.pb-2.mb-0.ms-2(style=" border-bottom: 2px solid #8628A5;") Objetivo general
           p(data-aos="fade-up") Conocer el comportamiento, la distribución, abundancia y dispersión del vector, sus costumbres y su relación con el ambiente que permita proporcionar información de calidad adecuada y oportuna sobre el <i>Aedes aegypti</i>.
 
           .mb-4
             .d-flex.flex-wrap.align-items-center(data-aos="fade-right")
               img(src='@/assets/curso/temas/icono.svg' style="max-width: 50px;")
-              .h3.col-auto.pb-2.mb-0.ms-2(style=" border-bottom: 2px solid #8628A5;") Objetivos específicos: 
+              .h3.col-auto.pb-2.mb-0.ms-2(style=" border-bottom: 2px solid #8628A5;") Objetivos específicos
 
           p ● Identificar factores y variables bióticos y abióticos bajo los cuales se desarrolla el vector y la ocurrencia de las enfermedades en humanos.
           p ● Generar y sistematizar información para establecer las medidas de prevención y control oportunas según los índices entomológicos encontrados mediante la vigilancia del vector.
