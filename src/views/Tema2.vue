@@ -478,7 +478,7 @@
                       span Enlace web
                       i.fas.fa-file-code
 
-    .row.justify-content-center.mt-5(data-aos="fade-up")
+    .row.mt-5(data-aos="fade-up")
       .col-md-8.col-12
         p La siguiente tabla relaciona otros indicadores de importancia epidemiológica para el análisis del dengue:
 

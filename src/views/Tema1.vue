@@ -105,7 +105,7 @@
           h2.text-center Vigilancia virológica
           p Complementa la vigilancia serológica y es fundamental para desarrollar un sistema de alerta inmediata y predictiva del dengue epidémico. El método de elección para el aislamiento de rutina del virus es su inoculación a la línea de células de mosquito c6/36, que son detectados en los primeros cinco días de la enfermedad.
       
-      .row.justify-content-center
+      .row
         .col-10
           p(data-aos="fade-down").mt-3 La vigilancia del dengue debe ser integral, permitiendo la evaluación de nuevas áreas de propagación del virus, detectando nuevos serotipos y genotipos en áreas infectadas y vigilando los casos graves y mortales atribuidos al dengue, la vigilancia del vector.
 
@@ -133,7 +133,7 @@
 
           p ● Identificar factores y variables bióticos y abióticos bajo los cuales se desarrolla el vector y la ocurrencia de las enfermedades en humanos.
           p ● Generar y sistematizar información para establecer las medidas de prevención y control oportunas según los índices entomológicos encontrados mediante la vigilancia del vector.
-          p ● Detectar y notificar la introducción del <i>A.albopictus</i>.
+          p ● Detectar y notificar la introducción del <i>A. albopictus</i>.
           p ● Evaluar y monitorear los niveles de susceptibilidad y resistencia de los vectores tanto adultos como estadios inmaduros a los insecticidas usados y nuevos utilizados en Salud Pública, a través del tiempo. 
           p ● Lograr la participación comunitaria en las actividades de vigilancia.
     
