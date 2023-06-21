@@ -16,6 +16,9 @@
         figure
           img(src='@/assets/curso/temas/tema1/img1.svg').m-auto
     
+    .col-12.titulo-sexto.color-acento-contenido.mt-3(data-aos="fade-right")
+      p.titulo.pb-0.mb-0 <b>Tabla 1.</b> <i>Notificación detección temprana casos de dengue  </i>
+
     .row.justify-content-center.align-items-center.mt-4.mb-4
       .col-lg-10.col-12
         .tabla-b.color-acento-contenido
@@ -145,6 +148,9 @@
     p(data-aos="fade-up") La vigilancia entomológica tendrá como área de influencia todo el territorio nacional, según escenarios epidemiológicos.
     p(data-aos="fade-up") El Sistema de Vigilancia Entomológica se sustenta en el fortalecimiento institucional, la coordinación intra y extrasectorial y la participación comunitaria, a través de la implementación de las estrategias relacionadas a continuación: 
 
+    .titulo-sexto.color-acento-contenido.mb-3
+      h5 Imagen 1: 
+      span Estrategias del Sistema de Vigilancia Entomológica  
     .row.mt-5.mb-5.justify-content-between
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta-temas--boton.color-secundario.p-4(style="height:100%")

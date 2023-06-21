@@ -85,6 +85,9 @@
       p(data-aos="fade-up") En zonas endémicas, la vigilancia del dengue debe ser un insumo permanente para realizar las acciones de control vectorial que se llevan a cabo regularmente y permiten su focalización. El aumento del número de casos deberá conducir a la evaluación de las medidas de control implementadas y a la definición de nuevas estrategias que permitan el control del vector y, en consecuencia, de la enfermedad.
       p(data-aos="fade-down") En la implementación de medidas de control vectorial, se recomienda tener en cuenta los siguientes aspectos:
 
+      .titulo-sexto.color-acento-contenido.mb-3
+        h5 Imagen 2: 
+        span  Medidas de control vectorial   
       .row.justify-content-center.tarjeta-temas.color-secundario.mt-5
         .col-lg-12.col-12
 
@@ -481,6 +484,9 @@
     .row.mt-5(data-aos="fade-up")
       .col-md-8.col-12
         p La siguiente tabla relaciona otros indicadores de importancia epidemiológica para el análisis del dengue:
+    
+    .col-12.titulo-sexto.color-acento-contenido.mt-3(data-aos="fade-right")
+      p.titulo.pb-0.mb-0 <b>Tabla 2.</b> <i> Indicadores para el análisis del dengue</i>
 
     .tabla-b.color-acento-contenido
       table
@@ -547,9 +553,12 @@
     p(data-aos="fade-up") Se debe vincular a la comunidad en las acciones de prevención, control y vigilancia en salud pública para controlar la infestación por <i>Aedes aegypti</i>.
     p(data-aos="fade-down") Los métodos de prevención y control se realizan mediante la ejecución de acciones como las que se destacan a continuación: 
     
+    .titulo-sexto.color-acento-contenido.mb-3
+      h5 Figura 1: 
+      span Métodos de prevención. 
     .row
       figure
-        img(src='@/assets/curso/temas/tema2/img44.png' alt='AvatarTop')
+        img(src='@/assets/curso/temas/tema2/img44.png' alt='')
     .row.BGIMG01.mt-5
       .row.justify-content-center.mt-5
         .col-md-3.col-6.mt-4.mb-4
