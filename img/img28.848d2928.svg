@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="356" height="190" viewBox="0 0 356 190">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_46966" data-name="Rectángulo 46966" width="145.359" height="144.941" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_160868" data-name="Grupo 160868" transform="translate(-329 -7237)">
+    <g id="Grupo_160902" data-name="Grupo 160902">
+      <rect id="Rectángulo_46896" data-name="Rectángulo 46896" width="356" height="190" transform="translate(329 7237)" fill="#fff"/>
+      <g id="Grupo_160859" data-name="Grupo 160859" transform="translate(434 7260)">
+        <g id="Grupo_160858" data-name="Grupo 160858" transform="translate(0 0)" clip-path="url(#clip-path)">
+          <path id="Trazado_601185" data-name="Trazado 601185" d="M2.679,36.014A71.707,71.707,0,0,0,0,55.433c0,40.015,32.764,72.452,73.183,72.452.1,0,.2-.009.293-.009V55.264Z" transform="translate(0 17.056)" fill="#ade65f"/>
+          <path id="Trazado_601186" data-name="Trazado 601186" d="M121.744,72.476c0-39.5-32.036-71.594-71.882-72.449v144.9c39.845-.855,71.882-32.952,71.882-72.452" transform="translate(23.615 0.012)" fill="#69489b"/>
+          <path id="Trazado_601187" data-name="Trazado 601187" d="M1.83,52.947,72.609,72.493V0A73.371,73.371,0,0,0,1.83,52.947" transform="translate(0.867 -0.001)" fill="#4462fe"/>
+        </g>
+      </g>
+      <text id="_50" data-name="50" transform="translate(606 7327)" fill="#c4c4c4" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">50</tspan></text>
+      <text id="_20" data-name="20" transform="translate(390 7278)" fill="#c4c4c4" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">20</tspan></text>
+      <text id="_30" data-name="30" transform="translate(390 7370)" fill="#c4c4c4" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">30</tspan></text>
+      <path id="Trazado_601259" data-name="Trazado 601259" d="M-4385.443-4365.879h54.773" transform="translate(4953 11700)" fill="none" stroke="#69489b" stroke-width="1"/>
+      <path id="Trazado_601260" data-name="Trazado 601260" d="M-4485.75-4418H-4563" transform="translate(4953 11700)" fill="none" stroke="#4462fe" stroke-width="1"/>
+      <path id="Trazado_601261" data-name="Trazado 601261" d="M-4485.75-4418H-4563" transform="translate(4953 11792)" fill="none" stroke="#ade65f" stroke-width="1"/>
+    </g>
+  </g>
+</svg>
