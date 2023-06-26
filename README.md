@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecoredsena-tolima.github.io/CF003_33130192_ATENCION_CLINICA_INTEGRAL_DEL_PACIENTE_CON_DENGUE/#/](https://ecoredsena-tolima.github.io/CF003_33130192_ATENCION_CLINICA_INTEGRAL_DEL_PACIENTE_CON_DENGUE/#/)
 
 #
 
